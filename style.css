@@ -11,7 +11,7 @@ html {
 
 /* body */
 body {
-    background: url(background.svg) no-repeat;
+    background: url(images/background.svg) no-repeat;
 }
 
 a{
@@ -91,6 +91,7 @@ background-color: #ff4e00;
 }
 
 .explore-now {
+    z-index: 4;
     position: relative;
     margin-top: 30rem;
     font-family: 'Poppins', sans-serif;

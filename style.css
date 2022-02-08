@@ -7,10 +7,15 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: hidden ;
+
   }
 
 /* body */
 body {
+    overflow-x: hidden;
+    overflow-y: hidden;
     background: url(images/background.svg) no-repeat;
 }
 

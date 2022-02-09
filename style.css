@@ -1,0 +1,326 @@
+/* colors */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #F28627;
+    --background-color: #000;
+}
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: hidden ;
+
+  }
+
+/* body */
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: url(images/background.svg) no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+/* main section */
+/* Graditent Colors */
+
+.explore-now,
+.double-down-arrow,
+.installation-title,
+.what-is,.guide-title,
+.footer-txt
+{
+background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #FF00D6 0%, #FFD600 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;}
+
+
+
+
+
+/* first page section */
+.social-media-list {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    width: 234px;
+    height: 4.8rem;
+    left: 80rem;
+    top: 2.6rem;
+}
+
+.social-media-items {
+    padding-right: 3rem;
+
+}
+
+.icon-height {
+    height: 30px;
+}
+
+#mid-content-title {
+    z-index: 3;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40rem;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.tagline-txt {
+
+    padding-top: 2rem;
+    max-width: 1200px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+
+    margin: auto;
+
+
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+}
+
+.explore-now {
+    z-index: 4;
+    position: relative;
+    margin-top: 30rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.6rem;
+}
+
+/* arrow down */
+.double-down-arrow {
+    /* position: absolute; */
+    -webkit-animation: downarrow 0.5s infinite alternate ease-in-out;
+
+}
+
+/* arrow animation */
+@-webkit-keyframes downarrow {
+    0% {
+        -webkit-transform: translateY(0);
+        opacity: 0.4
+    }
+
+    100% {
+        -webkit-transform: translateY(0.4em);
+        opacity: 0.9
+    }
+}
+
+
+
+
+/* first page section  over*/
+
+
+
+
+/*installation page section  over*/
+#end-display-section {
+    margin-top: 21rem;
+}
+
+.container-second-page {
+
+    margin: 0rem 6rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* max-width: 1200px; */
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+/* -----------------------1fr----------- */
+
+
+.what-is {
+    margin-left: 4rem;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    display: inline;
+    padding-left: 2rem;
+    /* margin-top: 10rem; */
+    left: 94px;
+}
+
+
+.description {
+    left: 94px;
+    padding: 4rem;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    max-width: 88rem;
+
+
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+
+
+}
+
+.btn-container {
+    display: inline-block;
+    -webkit-animation: rightdir 1s infinite alternate ease-out;
+}
+
+.btn-container:hover {
+    
+    -webkit-animation: none;
+}
+
+.doc-Btn {
+    
+    background-image: linear-gradient(315deg, #FF00D6 0%, #FFD600 100%);
+    border-radius: 1.2rem;
+    border: 0;
+    padding: 2rem 3rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 3.2rem;
+    margin-left: 4rem;
+    font-weight: 600;
+    
+
+
+}
+
+
+
+
+/* button animation */
+@-webkit-keyframes rightdir {
+    0% {
+        -webkit-transform: translateX(0);
+        opacity: 0.7;
+        scale: 98%;
+    }
+
+    
+
+    100% {
+        -webkit-transform: translateX(0.4em);
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+/* -----------------------2fr----------- */
+.installation {
+    background: rgba(255, 182, 217, 0.22);
+    border: 2px solid rgba(255, 138, 138, 0.6);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    height: 462px;
+
+
+    border-radius: 12px;
+}
+
+.installation-title-background {
+    display: flex;
+    position: absolute;
+    width: 275px;
+    height: 69px;
+    left: 1543px;
+    top: 1147px;
+    text-align: center;
+    justify-content: center;
+
+
+    background: #251D22;
+    box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.installation-title {
+    margin: auto;
+
+
+    font-size: 3.6rem;
+    font-weight: 700;
+    
+}
+
+.install {
+    justify-content: center;
+    display: grid;
+    margin-top: 5rem;
+}
+
+.guide-title {
+    margin-top: 11rem;
+    margin-left: 3rem;
+    font-size: 3.6rem;
+    font-weight: 700;
+    
+
+
+}
+
+.carbon {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.installation-proc {
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    letter-spacing: 0.045em;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+/*installation page section  over*/
+
+/* footer page */
+.footer-txt{
+    
+    max-width: 1200px;
+    margin:6rem auto auto auto;
+    padding: 15rem 0rem 5rem 0rem;
+
+    
+    text-align: center;
+    font-size: 2.4rem;
+}

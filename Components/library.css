@@ -1,0 +1,186 @@
+/* colors */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #F28627;
+    --background-color: #000;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* body */
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: url(../images/background.svg) no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+/* main section */
+/* Graditent Colors */
+
+.explore-now,
+.double-down-arrow,
+.installation-title,
+.what-is,
+.guide-title,
+.sidebar__heading-name,
+.footer-txt {
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #FF00D6 0%, #FFD600 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
+
+
+/* first page section */
+/* <header> */
+.nav {
+    grid-area: header;
+    display: flex;
+    width: 100%;
+    padding: 4rem;
+    justify-content: space-between;
+    align-items: center;
+
+    /* box-shadow: 0px 0px 12px -7.5px #5b5b5b; */
+}
+
+.nav__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.nav__logo {
+    
+    top: .5rem;
+    height: auto;
+}
+
+.nav__right {
+    display: flex;
+    margin-left: auto;
+}
+
+.social-media-list {
+    display: flex;
+}
+
+.social-media-items {
+    padding-right: 3rem;
+
+}
+
+/* <header over> */
+
+/* main strts */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+        'header header header header header'
+        'sidebar content content content content'
+        'sidebar content content content content'
+        'sidebar content content content content';
+}
+
+
+.icon-height {
+    height: 30px;
+}
+/* side bar starts */
+.sidebar{
+    position: fixed;
+    padding-left: 6.6rem;
+}
+
+.background-sidebar{
+    position: absolute;
+    width: 237px;
+    height: 625px;
+    left: 71px;
+    top: 100px;
+    background: rgba(50, 43, 92, 0.1);
+    border: 2px solid rgba(229, 229, 229, 0.3);
+    box-sizing: border-box;
+    backdrop-filter: blur(65px);
+    
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 9px;
+
+}
+
+ .sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 155vh;
+    text-align: center;
+    align-items: center;
+}
+
+.sidebar__heading {
+    
+    /* padding-top: 3.3rem; */
+    font-size: 1.2rem;
+}
+
+.sidebar__heading-name {
+    
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.055em;
+    padding-top: 4rem;
+    
+}
+
+.sidebar__links a {
+    
+    color : rgb(255, 255, 255);
+}
+
+.sidebar__links li:hover {
+    background-color: #f2862736;
+    border-radius: 10px;
+}
+
+.sidebar__link-item {
+    list-style: none;
+    font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.3rem 0rem;
+    font-weight: 100;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/* footer page */
+/* .footer-txt {
+
+    max-width: 1200px;
+    margin: 6rem auto auto auto;
+    padding: 15rem 0rem 5rem 0rem;
+
+
+    text-align: center;
+    font-size: 2.4rem;
+} */

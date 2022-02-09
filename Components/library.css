@@ -1,9 +1,5 @@
 /* colors */
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/* <link rel="stylesheet" href="./library.css">
-    <link rel="stylesheet" href="../reset.css">
-    <title>DarkBucket</title>
-    <link rel = "icon" href = "images/ICON.png" type = "image/x-icon"> */
 
 :root {
     --primary-color: #F28627;

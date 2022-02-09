@@ -11,6 +11,22 @@ html {
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    
+    width: 4px;
+    background:rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-track {
+   background: rgba(0, 0, 0, 0.794);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background:rgb(236, 57, 102);
+} 
+
 /* body */
 body {
     overflow-y: hidden;
@@ -22,9 +38,10 @@ a {
     text-decoration: none;
 }
 
-h2{
+h2 {
     font-size: 3.2rem;
 }
+
 /* main section */
 /* Graditent Colors */
 
@@ -42,7 +59,13 @@ h2{
     color: transparent;
 }
 
-
+.CUBE1,
+.CUBE2,
+.CUBE3,
+.CUBE4 {
+    background: linear-gradient(105.43deg, #FF00D6 2.13%, #FFD600 102.22%);
+    border-radius: 54px;
+}
 
 
 
@@ -55,6 +78,7 @@ h2{
     padding: 4rem;
     justify-content: space-between;
     align-items: center;
+    /* position: fixed; */
 
     /* box-shadow: 0px 0px 12px -7.5px #5b5b5b; */
 }
@@ -66,7 +90,7 @@ h2{
 }
 
 .nav__logo {
-    
+
     top: .5rem;
     height: auto;
 }
@@ -78,10 +102,12 @@ h2{
 
 .social-media-list {
     display: flex;
+    margin-left: auto;
 }
 
 .social-media-items {
     padding-right: 3rem;
+    list-style: none;
 
 }
 
@@ -102,59 +128,116 @@ h2{
 .icon-height {
     height: 30px;
 }
+
+.bar {
+    left: 762px;
+    top: 105.34px;
+    width: 59.21px;
+    height: 1722.23px;
+    background: linear-gradient(105.43deg, #FF00D6 2.13%, #FFD600 102.22%);
+    border-radius: 54px;
+    transform: rotate(-72.09deg);
+    position: absolute;
+
+}
+
+.CUBE1,
+.CUBE2,
+.CUBE3,
+.CUBE4 {
+    position: absolute;
+    width: 201.96px;
+    height: 155.32px;
+}
+
+
+.CUBE1 {
+    left: 361px;
+    top: 335.07px;
+    transform: rotate(-27.12deg);
+}
+
+.CUBE2 {
+
+    left: 852px;
+    top: 247.38px;
+    transform: rotate(-30.79deg);
+}
+
+.CUBE3 {
+    left: 1592.91px;
+    top: 322.1px;
+    transform: rotate(44.96deg);
+
+}
+
+.CUBE4 {
+    left: 1249.83px;
+    top: 770px;
+    transform: rotate(57.39deg);
+
+
+}
+
+
 /* side bar starts */
-.sidebar{
-    position: fixed;
+.sidebar {
+   
     padding-left: 6.6rem;
 }
 
-.background-sidebar{
+.background-sidebar {
     position: absolute;
     width: 237px;
     height: 625px;
-    left: 71px;
-    top: 100px;
-    background: rgba(50, 43, 92, 0.1);
-    border: 2px solid rgba(229, 229, 229, 0.3);
+    left: 102px;
+    top: 24rem;
+    background: rgba(0, 0, 0, 0.05);
+    border: 3px solid rgba(222, 90, 255, 0.3);
     box-sizing: border-box;
     backdrop-filter: blur(65px);
-    
-    /* Note: backdrop-filter has minimal browser support */
+
+
     border-radius: 9px;
 
 }
 
- .sidebar {
+.sidebar {
     display: flex;
     flex-direction: column;
-    height: 155vh;
+
     text-align: center;
     align-items: center;
 }
 
 .sidebar__heading {
-    
+
     /* padding-top: 3.3rem; */
     font-size: 1.2rem;
 }
 
 .sidebar__heading-name {
-    
+
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.055em;
-    padding-top: 4rem;
-    
+
+
 }
 
 .sidebar__links a {
+
+    color: rgb(255, 255, 255);
     
-    color : rgb(255, 255, 255);
 }
 
 .sidebar__links li:hover {
-    background-color: #f2862736;
-    border-radius: 10px;
+    letter-spacing: .05em;
+    font-weight: 600;
+     border-radius: 10px;
+     font-size: 2.4rem;
+     
+     
 }
 
 .sidebar__link-item {
@@ -164,6 +247,42 @@ h2{
     padding: 1.3rem 0rem;
     font-weight: 100;
     color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+
+
+/* content starts */
+
+.content  {
+    
+    overflow: auto;
+    height: 75rem;
+    max-height: 140rem;
+
+    z-index: 5;
+    grid-area: content;
+    padding-top: 0.4rem;
+
+    background: rgba(0, 0, 0, 0.35);
+    border: 3px solid rgba(255, 109, 25, 0.25);
+    -webkit-backdrop-filter: blur(35px);
+    backdrop-filter: blur(35px);
+
+    border-radius: 12px;
+    
+    max-width: 130rem;
+    z-index: 0;
+
+}
+.content-over-bg {
+
+    
+    font-weight: 400;
+    font-size: 2.4rem;
+    font-family: 'Karla',sans-serif;
+    padding: 5rem;
+    color: #FFF;
 }
 
 
@@ -171,16 +290,14 @@ h2{
 
 
 
-
-
 /* footer page */
-/* .footer-txt {
+.footer-txt {
 
     max-width: 1200px;
-    margin: 6rem auto auto auto;
-    padding: 15rem 0rem 5rem 0rem;
-
-
+    margin: 3rem auto auto auto;
+    padding: 5rem 0rem 5rem 0rem;
+z-index: 6;
+position: relative;
     text-align: center;
     font-size: 2.4rem;
-} */
+}

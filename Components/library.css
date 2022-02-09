@@ -257,7 +257,7 @@ h2 {
 .content  {
     
     overflow: auto;
-    height: 75rem;
+    
     max-height: 140rem;
 
     z-index: 5;

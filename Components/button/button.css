@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.material-icons{
+    padding-right: .7rem;
+}
+
+
+.content {
+    grid-area: content;
+    padding: 3rem 1.5rem;
+}
+
+.button__heading {
+    padding : .5rem;
+}
+
+.button__heading-title h1 {
+    font-size: 4.8rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    letter-spacing: .05rem;
+
+}
+
+.button__heading-subtitle p{
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.button__examples  {
+    margin-top: 2rem;
+    padding : .5rem;
+}
+
+.button__examples h2{
+    font-weight: 500;
+}
+
+.button__standard {
+    margin: 3.5rem 0rem;
+}
+
+.button__standard-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+}
+
+.btn {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-std-primary {
+    background-color: var(--primary-btn-color);
+    color: white;
+}
+
+.btn-std-secondary {
+    background-color: var(--secondary-btn-color);
+    color: white;
+}
+
+.btn-std-success {
+    background-color: var(--success-btn-color);
+    color: white;
+}
+
+.btn-std-warning {
+    background-color: var(--warning-btn-color);
+    color: white;
+}
+
+.btn-std-error {
+    background-color: var(--error-btn-color);
+    color: white;
+}
+
+.btn-std-info {
+    background-color: var(--info-btn-color);
+    color: white;
+}
+
+.btn-std-dark {
+    background-color: var(--dark-btn-color);
+    color: white;
+}
+
+.button__standard-iframe {
+    text-align: center;
+}
+
+.button__outline {
+    margin: 3.5rem 0rem;
+}
+
+.button__outline-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+}
+
+.btn-outl-primary {
+    border: 2px solid var(--primary-btn-color);
+    color: var(--primary-btn-color);
+    /* for safari */
+    background-color: var(--background-color);
+}
+
+.btn-outl-secondary {
+    border: 2px solid var(--secondary-btn-color);
+    color: var(--secondary-btn-color);
+    /* for safari */
+    background-color: var(--background-color);
+}
+
+.btn-outl-success {
+    border: 2px solid var(--success-btn-color);
+    color: var(--success-btn-color);
+    /* for safari */
+    background-color: var(--background-color);
+}
+
+.btn-outl-warning {
+    border: 2px solid var(--warning-btn-color);
+    color: var(--warning-btn-color);
+    /* for safari */
+    background-color: var(--background-color);
+}
+
+.btn-outl-error {
+    border: 2px solid var(--error-btn-color);
+    color: var(--error-btn-color);
+    /* for safari */
+    background-color: var(--background-color);
+}
+
+.btn-outl-info {
+    border: 2px solid var(--info-btn-color);
+    color: var(--info-btn-color);
+    /* for safari */
+    background-color: var(--background-color);
+}
+
+.btn-outl-dark {
+    border: 2px solid var(--dark-btn-color);
+    color: var(--dark-btn-color);
+    /* for safari */
+    background-color: var(--background-color);
+}
+
+.button__outline-iframe {
+    text-align: center;
+}
+
+.button__link {
+    margin: 3.5rem 0rem;
+}
+
+.button__link-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+}
+
+i {
+    padding-right: 5px;
+}
+
+.btn-icon-home {
+    border: 2px solid var(--primary-btn-color);
+    color: var(--primary-btn-color);
+    /* for safari */
+    background-color: var(--background-color);
+}
+
+.btn-icon-home:hover {
+    background-color: var(--primary-btn-color);
+    color:white
+}
+
+.btn-icon-menu {
+    border: 2px solid var(--secondary-btn-color);
+    color: var(--secondary-btn-color);
+    /* for safari */
+    background-color: var(--background-color);
+}
+
+.btn-icon-menu:hover {
+    background-color: var(--secondary-btn-color);
+    color:white
+}
+
+.btn-icon-warning {
+    background-color: var(--warning-btn-color);
+}
+
+.btn-icon-danger {
+    background-color: var(--error-btn-color);
+}
+
+.btn-icon-error, .btn-icon-chats {
+    font-size: 2rem;
+    /* for safari */
+    background-color: var(--background-color);
+}
+
+.btn-icon-chats:hover {
+    color: var(--info-btn-color);
+}
+
+.button__icon-iframe {
+    text-align: center;
+}
+
+.btn-link {
+    color:var(--info-btn-color);
+}
+
+.button__link-iframe {
+    text-align: center;
+}
+
+.button__floating {
+    margin: 3.5rem 0rem;
+}
+
+.button__floating-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+}
+
+.btn-float {
+    font-size: 1.3rem;
+    background-color: #f28627;
+    height: 3.1rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.btn-float i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__floating-iframe {
+    text-align: center;
+}

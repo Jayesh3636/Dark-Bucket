@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../library.css">
+    <link rel="stylesheet" href="../../reset.css">
+    <link rel="stylesheet" href="../../Components/avatar/avatar.css">
+    <link rel="stylesheet" href="../badge/badge.css">
+    <title>DarkBucket</title>
+    <link rel="icon" href="images/ICON.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav__left">
+                <a href="../../Index.html">
+                    <div class="nav__logo">
+                        <img src="../../images/DARKBUCKET-title.svg" class="nav__logo">
+                    </div>
+                </a>
+            </div>
+            <div class="nav__right">
+                <div class="social-media-list">
+                    <ul class="social-media-list">
+                        <li class="social-media-items"><a href="#"><img class="icon-height"
+                                    src="../../images/Linkedin.png" alt="Linkedin"></a></li>
+                        <li class="social-media-items"><a href="#"><img class="icon-height"
+                                    src="../../images/github.png" alt="github"></a>
+                        </li>
+                        <li class="social-media-items"><a href="#"><img class="icon-height"
+                                    src="../../images/twitter.png" alt="twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="grid-layout">
+        <!-- first page -->
+        <div class="bar"></div>
+        <div class="CUBE1"></div>
+        <div class="CUBE2"></div>
+        <div class="CUBE3"></div>
+        <div class="CUBE4"></div>
+
+
+
+
+        <!-- side bar starts -->
+        <section class="sidebar">
+
+            <div class="sidebar__heading">
+                <h2 class="sidebar__heading-name">COMPONENTS</h2>
+            </div>
+            <div class="background-sidebar">
+                <ul class="sidebar__links">
+                    <a href="../alert/alert.html">
+                        <li class="sidebar__link-item">ALERT</li>
+                    </a>
+                    <a href="../avatar/avatar.html">
+                        <li class="sidebar__link-item">AVATAR</li>
+                    </a>
+                    <a href="./badge/badge.html">
+                        <li class="sidebar__links-li-active">BADGE</li>
+                    </a>
+                    <a href="./button/button.html">
+                        <li class="sidebar__link-item">BUTTONS</li>
+                    </a>
+                    <a href="./card/card.html">
+                        <li class="sidebar__link-item">CARD</li>
+                    </a>
+                    <a href="./image/image.html">
+                        <li class="sidebar__link-item">IMAGE</li>
+                    </a>
+                    <a href="./input/input.html">
+                        <li class="sidebar__link-item">INPUTS</li>
+                    </a>
+                    <a href="./typography/typography.html">
+                        <li class="sidebar__link-item">TYPOGRAPHY</li>
+                    </a>
+                    <a href="./modal/modal.html">
+                        <li class="sidebar__link-item">MODAL</li>
+                    </a>
+                    <a href="./slider/slider.html">
+                        <li class="sidebar__link-item">SLIDER</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- side bar ends -->
+        </section>
+
+        <section class="content">
+            <div class="content-over-bg">
+                <!-- Put content here -->
+                <div id="badge">
+                    <div class="badge__heading">
+                        <div class="badge__heading-title">
+                            <h1>Badge</h1>
+                        </div>
+                        <div class="badge__heading-subtitle">
+                            <p>
+                                Badge is used where we want to show some notification/message count or show on an icon indicating there is some notification.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="badge__examples">
+                        <div class="badge__examples-des">
+                            <h2>
+                                Badge can be of 3 different types 
+                            </h2>
+                            <h5> 1) Badge with Avatar </h5>
+                            <h5> 2) Badge with Icon </h5>
+                            <h5> 3) Badge with Typography </h5>
+                            <br>
+                            <p>
+                                Below examples illustrate the 4 different types of badges. To use any of these badges, simply add class <strong>badge</strong> followed by its type. Example → class="badge-online"
+                            </p>
+                        </div>
+    
+                        <div class="badge__avatar">
+                            <h2>Badge with Avatar</h2>
+                            <p>
+                                Example → class="avatar" & span class="badge-away"
+                            </p>
+                            <div class="badge__avatar-examples">
+                                <div class="badge-container">
+                                    <div class="avatar avatar-lg">
+                                    <img class="img-rnd img-resp" src="../../images/badge/badge_1.jpg" alt="avatar img" />
+                                    </div>
+                                    <span class="badge-active"></span>
+                                </div>
+                                
+                                <div class="badge-container">
+                                    <div class="avatar avatar-md">
+                                    <img class="img-rnd img-resp" src="../../images/badge/badge_2.jpg" alt="avatar img" />
+                                    </div>
+                                    <span class="badge-offline"></span>
+                                </div>
+                                <div class="badge-container">
+                                    <div class="avatar avatar-sm">
+                                    <img class="img-rnd img-resp" src="../../images/badge/badge_3.jpg" alt="avatar img" />
+                                    </div>
+                                    <span class="badge-away"></span>
+                                </div>
+                                <div class="badge-container">
+                                    <div class="avatar avatar-xs">
+                                    <img class="img-rnd img-resp" src="../../images/badge/badge.jpg" alt="avatar img" />
+                                    </div>
+                                    <span class="badge-dnd">-</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="badge__avatar-iframe">
+                            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=1137&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=dm&fs=16.5px&lh=154%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-lg%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-rnd%2520img-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Favatar%252Favatar_1.jpg%2522%2520alt%253D%2522avatar%2520img%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-active%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-rnd%2520img-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Favatar%252Favatar_2.jpg%2522%2520alt%253D%2522avatar%2520img%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-offline%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-rnd%2520img-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Favatar%252Favatar_3.jpg%2522%2520alt%253D%2522avatar%2520img%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-away%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-xs%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-rnd%2520img-resp%2522%2520src%253D%2522..%252F..%252Fimages%252Favatar%252Favatar.jpg%2522%2520alt%253D%2522avatar%2520img%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-dnd%2522%253E-%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+  style="width: 1137px; height: 730px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+                        </div>
+    
+                        <div class="badge__icons">
+                            <h2>Badge with Icons</h2>
+                            <p>
+                                Example → class="badge-icons" & span class="notification"
+                            </p>
+                            <div class="badge__icons-examples">
+                                <div class="badge-icons">
+                                    <span class="material-icons">notifications</span>
+                                        <span class="notification">4</span>    
+                                </div>
+                                <div class="badge-icons">
+                                    <span class="material-icons">shopping_cart</span>
+                                        <span class="notification">8</span>
+                                </div>
+                                <div class="badge-icons">
+                                    <span class="material-icons">email</span>
+                                        <span class="notification">2</span>
+                                </div>
+                                <div class="badge-icons">
+                                    <span class="material-icons">cloud</span>
+                                        <span class="notification">4</span>
+                                    
+                                </div>
+                                <div class="badge-icons">
+                                    <span class="material-icons">discord</span>
+                                        <span class="notification">5</span>
+                                    
+                                </div>
+    
+                            </div>
+                        </div>
+    
+                        <div class="badge__icons-iframe">
+                            <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=1137&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=dm&fs=16.5px&lh=154%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Enotifications%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification%2522%253E8%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eemail%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification%2522%253E2%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Ecloud%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Ediscord%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification%2522%253E5%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1137px; height: 565px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                          
+                        </div>
+
+                        <div class="badge__typo">
+                            <h2>Badge with typography</h2>
+                            <p>
+                                There are two sorts of text badges that may be used in combination with text.
+Badge with square and rounded corners.
+The badge text font size is measured in em.
+It will adjust according to the font-size of the parent element. 
+                            </p>
+                            <div class="badge__typo-examples">
+                                <h2 class="badge-container">
+                                    This is a perfect Example with badge
+                                    <span class="badge-typo bg-primary rounded">New</span>
+                                </h2>
+                                
+                                <h3 class="badge-container">
+                                    This is a perfect Example with badge
+                                    <span class="badge-typo bg-primary">New</span>
+                                </h3>
+
+                                <h4 class="badge-container">
+                                    This is a perfect Example with badge
+                                    <span class="badge-typo bg-primary">New</span>
+                                </h4>
+                                
+                                <h5 class="badge-container">
+                                    This is a perfect Example with badge
+                                    <span class="badge-typo bg-secondary rounded">New</span>
+                                </h5>
+
+                                <h6 class="badge-container">
+                                    This is a perfect Example with badge
+                                    <span class="badge-typo bg-secondary">New</span>
+                                </h6>
+
+                                <p class="badge-container" id="p">
+                                    This is a perfect Example with badge
+                                    <span class="badge-typo bg-secondary">New</span>
+                                </p>
+
+                            </div>
+                        </div>
+    
+                        <div class="badge__avatar-iframe">
+                            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=1137&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=dm&fs=16.5px&lh=154%25&si=false&es=2x&wm=false&code=%253Ch2%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520perfect%2520Example%2520with%2520badge%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-typo%2520bg-primary%2520rounded%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fh2%253E%250A%250A%253Ch3%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520perfect%2520Example%2520with%2520badge%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-typo%2520bg-primary%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fh3%253E%250A%250A%253Ch4%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520perfect%2520Example%2520with%2520badge%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-typo%2520bg-primary%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fh4%253E%250A%250A%253Ch5%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520perfect%2520Example%2520with%2520badge%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-typo%2520bg-secondary%2520rounded%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fh5%253E%250A%250A%253Ch6%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520perfect%2520Example%2520with%2520badge%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-typo%2520bg-secondary%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fh6%253E%250A%250A%253Cp%2520class%253D%2522badge-container%2522%2520id%253D%2522p%2522%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520perfect%2520Example%2520with%2520badge%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-typo%2520bg-secondary%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fp%253E"
+  style="width: 1137px; height: 804px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+                        </div>
+
+
+
+
+                    </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-txt">
+                Made by JCREA</div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+
+</html>

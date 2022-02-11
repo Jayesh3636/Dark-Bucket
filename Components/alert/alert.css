@@ -1,11 +1,12 @@
 :root {
     --alert-primary-color: rgba(0, 110, 255, 0.212);
-    --alert-secondary-color: rgba(128, 128, 128, 0.315); 
+    --alert-secondary-color: rgba(128, 128, 128, 0.315);
     --alert-success-color: rgba(6, 161, 14, 0.308);
     --alert-warning-color: rgba(255, 166, 0, 0.404);
     --alert-error-color: rgba(255, 0, 0, 0.315);
 }
-.material-icons{
+
+.material-icons {
     padding-right: .7rem;
 }
 
@@ -16,33 +17,33 @@
 }
 
 .alert__heading {
-    padding : .5rem;
+    padding: .5rem;
 }
 
 .alert__heading-title {
     font-size: 4.8rem;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     letter-spacing: .05rem;
 
 }
 
-.alert__heading-subtitle{
-    
+.alert__heading-subtitle {
+
     font-size: 2.4rem;
     font-weight: 300;
 }
 
 .alert__examples {
     margin-top: 2rem;
-    padding : .5rem;
+    padding: .5rem;
 }
 
-.alert__examples h2{
+.alert__examples h2 {
     font-weight: 500;
 }
 
-.alert__examples-des > p {
+.alert__examples-des>p {
     font-size: 2.4rem;
     padding-top: .8rem;
     font-weight: 300;
@@ -66,7 +67,7 @@
 
 .alert-primary {
     align-items: center;
-display: flex;
+    display: flex;
     background-color: var(--alert-primary-color);
     color: darkblue;
     border-left: 10px solid darkblue;
@@ -74,25 +75,25 @@ display: flex;
 
 .alert-secondary {
     align-items: center;
-display: flex;
+    display: flex;
     background-color: var(--alert-secondary-color);
     color: rgb(0, 0, 0);
-    
+
     border-left: 10px solid;
 }
 
 .alert-success {
     align-items: center;
-display: flex;
+    display: flex;
     background-color: var(--alert-success-color);
     color: darkgreen;
     border-left: 10px solid darkgreen;
 }
 
 .alert-warning {
-    padding-right:3.5rem;
+    padding-right: 3.5rem;
     align-items: center;
-display: flex;
+    display: flex;
     background-color: var(--alert-warning-color);
     color: darkorange;
     border-left: 10px solid darkorange;
@@ -100,12 +101,13 @@ display: flex;
 
 .alert-error {
     align-items: center;
-display: flex;
+    display: flex;
     background-color: var(--alert-error-color);
     color: darkred;
     border-left: 10px solid darkred;
 }
 
-.alert__iframe { background-color: rgba(0, 0, 0, 0);
+.alert__iframe {
+    background-color: rgba(0, 0, 0, 0);
     text-align: center;
 }

@@ -1,0 +1,113 @@
+:root {
+    --alert-primary-color: rgba(0, 110, 255, 0.212);
+    --alert-secondary-color: rgba(128, 128, 128, 0.315);
+    --alert-success-color: rgba(6, 161, 14, 0.308);
+    --alert-warning-color: rgba(255, 166, 0, 0.404);
+    --alert-error-color: rgba(255, 0, 0, 0.315);
+}
+
+.material-icons {
+    padding-right: .7rem;
+}
+
+
+.content {
+    grid-area: content;
+    padding: 3rem 1.5rem;
+}
+
+.alert__heading {
+    padding: .5rem;
+}
+
+.alert__heading-title {
+    font-size: 4.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .05rem;
+
+}
+
+.alert__heading-subtitle {
+
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.alert__examples {
+    margin-top: 2rem;
+    padding: .5rem;
+}
+
+.alert__examples h2 {
+    font-weight: 500;
+}
+
+.alert__examples-des>p {
+    font-size: 2.4rem;
+    padding-top: .8rem;
+    font-weight: 300;
+}
+
+.alert__examples-box {
+    padding: 2rem;
+    margin: 4.5rem 0rem;
+    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+    background-color: rgb(255, 245, 245);
+    border-radius: 1.2rem;
+}
+
+.alert {
+    font-size: 1.4rem;
+    height: 5.5rem;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
+.alert-primary {
+    align-items: center;
+    display: flex;
+    background-color: var(--alert-primary-color);
+    color: darkblue;
+    border-left: 10px solid darkblue;
+}
+
+.alert-secondary {
+    align-items: center;
+    display: flex;
+    background-color: var(--alert-secondary-color);
+    color: rgb(0, 0, 0);
+
+    border-left: 10px solid;
+}
+
+.alert-success {
+    align-items: center;
+    display: flex;
+    background-color: var(--alert-success-color);
+    color: darkgreen;
+    border-left: 10px solid darkgreen;
+}
+
+.alert-warning {
+    padding-right: 3.5rem;
+    align-items: center;
+    display: flex;
+    background-color: var(--alert-warning-color);
+    color: darkorange;
+    border-left: 10px solid darkorange;
+}
+
+.alert-error {
+    align-items: center;
+    display: flex;
+    background-color: var(--alert-error-color);
+    color: darkred;
+    border-left: 10px solid darkred;
+}
+
+.alert__iframe {
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}

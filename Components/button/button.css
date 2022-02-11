@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.material-icons{
+:root {
+    --primary-color: #2780f2;
+    --hover-primary-color: #1968ce;
+    --secondary-color: rgb(219, 219, 219);
+    --hover-secondary-color: rgb(165, 165, 165);
+    --hover-dark-gray: rgb(61, 61, 61);
+    --white: #fff;
+}
+
+p {
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.material-icons {
     padding-right: .7rem;
 }
 
@@ -11,28 +25,28 @@
 }
 
 .button__heading {
-    padding : .5rem;
+    padding: .5rem;
 }
 
 .button__heading-title h1 {
     font-size: 4.8rem;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     letter-spacing: .05rem;
 
 }
 
-.button__heading-subtitle p{
+.button__heading-subtitle p {
     font-size: 2.4rem;
     font-weight: 300;
 }
 
-.button__examples  {
+.button__examples {
     margin-top: 2rem;
-    padding : .5rem;
+    padding: .5rem;
 }
 
-.button__examples h2{
+.button__examples h2 {
     font-weight: 500;
 }
 
@@ -47,194 +61,202 @@
     justify-content: space-around;
     align-items: center;
     padding: 1rem 0rem;
-    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+    background-color: rgb(255, 245, 245);
+    border-radius: 12px;
+
+    text-align: center;
+    transition: all ease-in-out 300ms;
 }
 
+.button__standard-examples:hover {
+    color: var(--white);
+    background-color: rgb(27, 27, 27);
+}
+
+
+
+/* button starts */
+
+
+
 .btn {
+    text-decoration: none;
+    display: inline-block;
     padding: 1rem 1.5rem;
-    font-size: 1rem;
+    margin: 1.25rem 0;
+    border-radius: 0.48rem;
+    background-color: transparent;
     border: none;
-    border-radius: 5px;
+    font-size: 1.6rem;
+    text-align: center;
+    outline: none;
     cursor: pointer;
 }
 
-.btn-std-primary {
-    background-color: var(--primary-btn-color);
-    color: white;
+/* solid primary */
+.btn-solid-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
 }
 
-.btn-std-secondary {
-    background-color: var(--secondary-btn-color);
-    color: white;
+.btn-solid-primary:hover {
+    background-color: var(--hover-primary-color)
 }
 
-.btn-std-success {
-    background-color: var(--success-btn-color);
-    color: white;
+/* outline primary */
+.btn-outline-primary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
-.btn-std-warning {
-    background-color: var(--warning-btn-color);
-    color: white;
+.btn-outline-primary:hover {
+    border: 1px solid var(--hover-primary-color);
+    background-color: var(--hover-primary-color);
+    color: var(--white);
 }
 
-.btn-std-error {
-    background-color: var(--error-btn-color);
-    color: white;
+/* link text primary */
+.link-text-primary {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: var(--primary-color);
+    padding: 0;
+    color: #5b5b5b;
+    font-size: 1.6rem;
+    text-align: center;
 }
 
-.btn-std-info {
-    background-color: var(--info-btn-color);
-    color: white;
+.link-text-primary:hover {
+    color: var(--primary-color);
+    text-decoration-thickness: 2px;
 }
 
-.btn-std-dark {
-    background-color: var(--dark-btn-color);
-    color: white;
+/* icon buttons */
+.btn-icon-primary .material-icons {
+    color: var(--primary-color);
+}
+
+.btn-icon-primary:hover .material-icons {
+    color: var(--hover-primary-color);
+}
+
+/* text-icon style */
+.btn-text-icon-primary {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-text-icon-primary:hover {
+    background-color: var(--hover-primary-color);
+}
+
+.btn-text-icon-primary .btn-icon {
+    padding-right: 0.625rem;
+    color: var(--white);
 }
 
 .button__standard-iframe {
     text-align: center;
 }
 
-.button__outline {
-    margin: 3.5rem 0rem;
-}
+/* ______________________Secondary____________________________________ */
 
-.button__outline-examples {
+.button__secondary-examples {
     margin-top: 2.5rem;
     display: flex;
     gap: 10px;
     justify-content: space-around;
     align-items: center;
     padding: 1rem 0rem;
-    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+    background-color: rgb(255, 245, 245);
+    border-radius: 12px;
+
+    text-align: center;
+    transition: all ease-in-out 300ms;
 }
 
-.btn-outl-primary {
-    border: 2px solid var(--primary-btn-color);
-    color: var(--primary-btn-color);
-    /* for safari */
-    background-color: var(--background-color);
+.button__secondary-examples:hover {
+    color: var(--white);
+    background-color: rgb(27, 27, 27);
 }
 
-.btn-outl-secondary {
-    border: 2px solid var(--secondary-btn-color);
-    color: var(--secondary-btn-color);
-    /* for safari */
-    background-color: var(--background-color);
+
+
+
+.btn-solid-secondary {
+    background-color: var(--secondary-color);
+    color: var(--white);
 }
 
-.btn-outl-success {
-    border: 2px solid var(--success-btn-color);
-    color: var(--success-btn-color);
-    /* for safari */
-    background-color: var(--background-color);
+.btn-solid-secondary:hover {
+    color: var(--hover-dark-gray);
+    background-color: var(--hover-secondary-color)
 }
 
-.btn-outl-warning {
-    border: 2px solid var(--warning-btn-color);
-    color: var(--warning-btn-color);
-    /* for safari */
-    background-color: var(--background-color);
+/* outline primary */
+.btn-outline-secondary {
+    border: 1px solid var(--secondary-color);
+    color: var(--hover-dark-gray);
 }
 
-.btn-outl-error {
-    border: 2px solid var(--error-btn-color);
-    color: var(--error-btn-color);
-    /* for safari */
-    background-color: var(--background-color);
+.btn-outline-secondary:hover {
+    border: 1px solid var(--hover-secondary-color);
+    background-color: var(--hover-secondary-color);
+    color: var(--white);
 }
 
-.btn-outl-info {
-    border: 2px solid var(--info-btn-color);
-    color: var(--info-btn-color);
-    /* for safari */
-    background-color: var(--background-color);
-}
-
-.btn-outl-dark {
-    border: 2px solid var(--dark-btn-color);
-    color: var(--dark-btn-color);
-    /* for safari */
-    background-color: var(--background-color);
-}
-
-.button__outline-iframe {
+/* link text primary */
+.link-text-secondary {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: var(--secondary-color);
+    padding: 0;
+    color: #5b5b5b;
+    font-size: 1.6rem;
     text-align: center;
 }
 
-.button__link {
-    margin: 3.5rem 0rem;
+.link-text-secondary:hover {
+    color: var(--secondary-color);
+    text-decoration-thickness: 2px;
 }
 
-.button__link-examples {
-    margin-top: 2.5rem;
+/* icon buttons */
+.btn-icon-secondary .material-icons {
+    color: var(--secondary-color);
+}
+
+.btn-icon-secondary:hover .material-icons {
+    color: var(--hover-secondary-color);
+}
+
+/* text-icon style */
+.btn-text-icon-secondary {
     display: flex;
-    gap: 10px;
-    justify-content: space-around;
     align-items: center;
-    padding: 1rem 0rem;
-    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+    background-color: var(--secondary-color);
+    color: var(--white);
 }
 
-i {
-    padding-right: 5px;
+.btn-text-icon-secondary:hover {
+    background-color: var(--hover-secondary-color);
 }
 
-.btn-icon-home {
-    border: 2px solid var(--primary-btn-color);
-    color: var(--primary-btn-color);
-    /* for safari */
-    background-color: var(--background-color);
+.btn-text-icon-secondary .btn-icon {
+    padding-right: 0.625rem;
+    color: var(--white);
 }
 
-.btn-icon-home:hover {
-    background-color: var(--primary-btn-color);
-    color:white
-}
-
-.btn-icon-menu {
-    border: 2px solid var(--secondary-btn-color);
-    color: var(--secondary-btn-color);
-    /* for safari */
-    background-color: var(--background-color);
-}
-
-.btn-icon-menu:hover {
-    background-color: var(--secondary-btn-color);
-    color:white
-}
-
-.btn-icon-warning {
-    background-color: var(--warning-btn-color);
-}
-
-.btn-icon-danger {
-    background-color: var(--error-btn-color);
-}
-
-.btn-icon-error, .btn-icon-chats {
-    font-size: 2rem;
-    /* for safari */
-    background-color: var(--background-color);
-}
-
-.btn-icon-chats:hover {
-    color: var(--info-btn-color);
-}
-
-.button__icon-iframe {
+.button__secondary-iframe {
+    padding-top: 3rem;
     text-align: center;
 }
 
-.btn-link {
-    color:var(--info-btn-color);
-}
+/* ______________________Secondary____________________________________ */
 
-.button__link-iframe {
-    text-align: center;
-}
+
 
 .button__floating {
     margin: 3.5rem 0rem;
@@ -247,18 +269,43 @@ i {
     justify-content: space-around;
     align-items: center;
     padding: 1rem 0rem;
-    box-shadow: 0px 0px 12px -7.5px #5b5b5b;
+    background-color: rgb(255, 245, 245);
+    border-radius: 12px;
+
+    text-align: center;
+    transition: all ease-in-out 300ms;
 }
+
+.button__floating-examples:hover {
+    color: var(--white);
+    background-color: rgb(27, 27, 27);
+}
+
+
 
 .btn-float {
-    font-size: 1.3rem;
-    background-color: #f28627;
-    height: 3.1rem;
-    width: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
     border-radius: 50%;
+    color: var(--complimentary-text-color);
+    background-color: var(--primary-color);
+    z-index: var(--z-index-3);
+
+
+
 }
 
-.btn-float i {
+.btn-float .material-icons {
+    padding: 0;
+}
+
+.btn-float span {
     display: flex;
     justify-content: center;
     align-items: center;

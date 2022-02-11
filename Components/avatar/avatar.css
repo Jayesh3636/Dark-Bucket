@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.material-icons{
+.material-icons {
     padding-right: .7rem;
 }
 
@@ -11,28 +11,28 @@
 }
 
 .avatar__heading {
-    padding : .5rem;
+    padding: .5rem;
 }
 
 .avatar__heading-title h1 {
     font-size: 4.8rem;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     letter-spacing: .05rem;
 
 }
 
-.avatar__heading-subtitle p{
+.avatar__heading-subtitle p {
     font-size: 2.4rem;
     font-weight: 300;
 }
 
-.avatar__examples  {
+.avatar__examples {
     margin-top: 2rem;
-    padding : .5rem;
+    padding: .5rem;
 }
 
-.avatar__examples h2{
+.avatar__examples h2 {
     font-weight: 500;
 }
 
@@ -50,45 +50,45 @@ p {
     margin-top: 2.5rem;
     display: flex;
     gap: 3rem;
-    /* justify-content: space-around; */
     align-items: baseline;
-    padding: 3rem ;
+    padding: 3rem;
     background-color: rgb(255, 245, 245);
-border-radius: 12px;
+    border-radius: 12px;
     color: #5b5b5b;
     text-align: center;
     transition: all ease-in-out 300ms;
 }
 
-.avatar__picture-examples:hover{
+.avatar__picture-examples:hover {
     background-color: rgb(27, 27, 27);
     color: aliceblue;
 
 }
 
 
-.img-rnd{
+.img-rnd {
     border-radius: 50%;
 }
-.img-resp{
+
+.img-resp {
     width: 100%;
     height: auto;
-    
+
 }
 
-.avatar-lg img{
+.avatar-lg img {
     height: 15.6rem;
 }
 
-.avatar-md img{
+.avatar-md img {
     height: 9.6rem;
 }
 
-.avatar-sm img{
+.avatar-sm img {
     height: 6.4rem;
 }
 
-.avatar-xs img{
+.avatar-xs img {
     height: 3.2rem;
 }
 
@@ -104,17 +104,16 @@ border-radius: 12px;
     margin-top: 2.5rem;
     display: flex;
     gap: 3rem;
-    /* justify-content: space-around; */
     align-items: baseline;
-    padding: 3rem ;
+    padding: 3rem;
     background-color: rgb(255, 245, 245);
-border-radius: 12px;
+    border-radius: 12px;
     color: #5b5b5b;
     text-align: center;
     transition: all ease-in-out 300ms;
 }
 
-.avatar__text-examples:hover{
+.avatar__text-examples:hover {
     background-color: rgb(27, 27, 27);
 }
 

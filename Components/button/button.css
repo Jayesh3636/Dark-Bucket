@@ -6,6 +6,7 @@
     --secondary-color: rgb(219, 219, 219);
     --hover-secondary-color: rgb(165, 165, 165);
     --hover-dark-gray: rgb(61, 61, 61);
+    --link-text-color:#5b5b5b;
     --white: #fff;
 }
 
@@ -121,7 +122,7 @@ p {
     text-underline-position: under;
     text-decoration-color: var(--primary-color);
     padding: 0;
-    color: #5b5b5b;
+    color: var(--link-text-color);
     font-size: 1.6rem;
     text-align: center;
 }
@@ -159,6 +160,7 @@ p {
 
 .button__standard-iframe {
     text-align: center;
+    
 }
 
 /* ______________________Secondary____________________________________ */
@@ -213,7 +215,7 @@ p {
     text-underline-position: under;
     text-decoration-color: var(--secondary-color);
     padding: 0;
-    color: #5b5b5b;
+    color: var(--link-text-color);
     font-size: 1.6rem;
     text-align: center;
 }

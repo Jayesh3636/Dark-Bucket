@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.material-icons {
+    padding-right: .7rem;
+}
+
+
+.content {
+    grid-area: content;
+    padding: 3rem 1.5rem;
+}
+
+.avatar__heading {
+    padding: .5rem;
+}
+
+.avatar__heading-title h1 {
+    font-size: 4.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .05rem;
+
+}
+
+.avatar__heading-subtitle p {
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.avatar__examples {
+    margin-top: 2rem;
+    padding: .5rem;
+}
+
+.avatar__examples h2 {
+    font-weight: 500;
+}
+
+p {
+    font-size: 2.4rem;
+    padding-top: .8rem;
+    font-weight: 300;
+}
+
+.avatar__picture {
+    margin: 3.5rem 0rem;
+}
+
+.avatar__picture-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 3rem;
+    align-items: baseline;
+    padding: 3rem;
+    background-color: rgb(255, 245, 245);
+    border-radius: 12px;
+    color: #5b5b5b;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+}
+
+.avatar__picture-examples:hover {
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+
+}
+
+
+.img-rnd {
+    border-radius: 50%;
+}
+
+.img-resp {
+    width: 100%;
+    height: auto;
+
+}
+
+.avatar-lg img {
+    height: 15.6rem;
+}
+
+.avatar-md img {
+    height: 9.6rem;
+}
+
+.avatar-sm img {
+    height: 6.4rem;
+}
+
+.avatar-xs img {
+    height: 3.2rem;
+}
+
+.avatar__picture-iframe {
+    text-align: center;
+}
+
+.avatar__text {
+    margin: 3.5rem 0rem;
+}
+
+.avatar__text-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 3rem;
+    align-items: baseline;
+    padding: 3rem;
+    background-color: rgb(255, 245, 245);
+    border-radius: 12px;
+    color: #5b5b5b;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+}
+
+.avatar__text-examples:hover {
+    background-color: rgb(27, 27, 27);
+}
+
+.avatar-text {
+    border-radius: 50%;
+    color: #fff;
+    background-color: #2780f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-txt-lg {
+    height: 15.6rem;
+    width: 15.6rem;
+    font-size: 4.8rem;
+}
+
+.avatar-txt-md {
+    height: 9.6rem;
+    width: 9.6rem;
+    font-size: 3.2rem;
+}
+
+.avatar-txt-sm {
+    height: 6.4rem;
+    width: 6.4rem;
+    font-size: 2.4rem;
+}
+
+.avatar-txt-xs {
+    height: 3.2rem;
+    width: 3.2rem;
+    font-size: 1.8rem;
+}
+
+.avatar__text-iframe {
+    text-align: center;
+}

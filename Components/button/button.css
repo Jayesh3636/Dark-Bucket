@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #2780f2;
+    --hover-primary-color: #1968ce;
+    --secondary-color: rgb(219, 219, 219);
+    --hover-secondary-color: rgb(165, 165, 165);
+    --hover-dark-gray: rgb(61, 61, 61);
+    --link-text-color: #5b5b5b;
+    --white: #fff;
+}
+
+p {
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.material-icons {
+    padding-right: .7rem;
+}
+
+
+.content {
+    grid-area: content;
+    padding: 3rem 1.5rem;
+}
+
+.button__heading {
+    padding: .5rem;
+}
+
+.button__heading-title h1 {
+    font-size: 4.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .05rem;
+
+}
+
+.button__heading-subtitle p {
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.button__examples {
+    margin-top: 2rem;
+    padding: .5rem;
+}
+
+.button__examples h2 {
+    font-weight: 500;
+}
+
+.button__standard {
+    margin: 3.5rem 0rem;
+}
+
+.button__standard-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    background-color: rgb(255, 245, 245);
+    border-radius: 12px;
+
+    text-align: center;
+    transition: all ease-in-out 300ms;
+}
+
+.button__standard-examples:hover {
+    color: var(--white);
+    background-color: rgb(27, 27, 27);
+}
+
+
+
+/* button starts */
+
+
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    margin: 1.25rem 0;
+    border-radius: 0.48rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+/* solid primary */
+.btn-solid-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-solid-primary:hover {
+    background-color: var(--hover-primary-color)
+}
+
+/* outline primary */
+.btn-outline-primary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    border: 1px solid var(--hover-primary-color);
+    background-color: var(--hover-primary-color);
+    color: var(--white);
+}
+
+/* link text primary */
+.link-text-primary {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: var(--primary-color);
+    padding: 0;
+    color: var(--link-text-color);
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.link-text-primary:hover {
+    color: var(--primary-color);
+    text-decoration-thickness: 2px;
+}
+
+/* icon buttons */
+.btn-icon-primary .material-icons {
+    color: var(--primary-color);
+}
+
+.btn-icon-primary:hover .material-icons {
+    color: var(--hover-primary-color);
+}
+
+/* text-icon style */
+.btn-text-icon-primary {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-text-icon-primary:hover {
+    background-color: var(--hover-primary-color);
+}
+
+.btn-text-icon-primary .btn-icon {
+    padding-right: 0.625rem;
+    color: var(--white);
+}
+
+.button__standard-iframe {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #2F1E2E;
+    margin: 2rem 0;
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+/* ______________________Secondary____________________________________ */
+
+.button__secondary-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    background-color: rgb(255, 245, 245);
+    border-radius: 12px;
+
+    text-align: center;
+    transition: all ease-in-out 300ms;
+}
+
+.button__secondary-examples:hover {
+    color: var(--white);
+    background-color: rgb(27, 27, 27);
+}
+
+
+
+
+.btn-solid-secondary {
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+.btn-solid-secondary:hover {
+    color: var(--hover-dark-gray);
+    background-color: var(--hover-secondary-color)
+}
+
+/* outline primary */
+.btn-outline-secondary {
+    border: 1px solid var(--secondary-color);
+    color: var(--hover-dark-gray);
+}
+
+.btn-outline-secondary:hover {
+    border: 1px solid var(--hover-secondary-color);
+    background-color: var(--hover-secondary-color);
+    color: var(--white);
+}
+
+/* link text primary */
+.link-text-secondary {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: var(--secondary-color);
+    padding: 0;
+    color: var(--link-text-color);
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.link-text-secondary:hover {
+    color: var(--secondary-color);
+    text-decoration-thickness: 2px;
+}
+
+/* icon buttons */
+.btn-icon-secondary .material-icons {
+    color: var(--secondary-color);
+}
+
+.btn-icon-secondary:hover .material-icons {
+    color: var(--hover-secondary-color);
+}
+
+/* text-icon style */
+.btn-text-icon-secondary {
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+.btn-text-icon-secondary:hover {
+    background-color: var(--hover-secondary-color);
+}
+
+.btn-text-icon-secondary .btn-icon {
+    padding-right: 0.625rem;
+    color: var(--white);
+}
+
+.button__secondary-iframe {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #2F1E2E;
+    margin: 2rem 0;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* ______________________Secondary____________________________________ */
+
+
+
+.button__floating {
+    margin: 3.5rem 0rem;
+}
+
+.button__floating-examples {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+    background-color: rgb(255, 245, 245);
+    border-radius: 12px;
+
+    text-align: center;
+    transition: all ease-in-out 300ms;
+}
+
+.button__floating-examples:hover {
+    color: var(--white);
+    background-color: rgb(27, 27, 27);
+}
+
+
+
+.btn-float {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: var(--complimentary-text-color);
+    background-color: var(--primary-color);
+    z-index: var(--z-index-3);
+
+
+
+}
+
+.btn-float .material-icons {
+    padding: 0;
+}
+
+.btn-float span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__floating-iframe {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #2F1E2E;
+    margin: 2rem 0;
+    border-radius: 12px;
+    text-align: center;
+}

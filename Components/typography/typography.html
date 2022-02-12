@@ -8,8 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../library.css">
     <link rel="stylesheet" href="../../reset.css">
-    <link rel="stylesheet" href="../../Components/avatar/avatar.css">
-    <link rel="stylesheet" href="../badge/badge.css">
+    <link rel="stylesheet" href="../typography/typography.css">
     <title>DarkBucket</title>
     <link rel="icon" href="images/ICON.png" type="image/x-icon">
 
@@ -68,7 +67,7 @@
                         <li class="sidebar__link-item">AVATAR</li>
                     </a>
                     <a href="../badge/badge.html">
-                        <li class="sidebar__links-li-active">BADGE</li>
+                        <li class="sidebar__link-item">BADGE</li>
                     </a>
                     <a href="../button/button.html">
                         <li class="sidebar__link-item">BUTTONS</li>
@@ -83,7 +82,7 @@
                         <li class="sidebar__link-item">INPUTS</li>
                     </a>
                     <a href="../typography/typography.html">
-                        <li class="sidebar__link-item">TYPOGRAPHY</li>
+                        <li class="sidebar__links-li-active">TYPOGRAPHY</li>
                     </a>
                     <a href="../modal/modal.html">
                         <li class="sidebar__link-item">MODAL</li>
@@ -100,6 +99,107 @@
         <section class="content">
             <div class="content-over-bg">
                 <!-- Put content here -->
+                <div id="typography">
+
+                    <div class="typography__heading">
+                        <div class="typography__heading-title">
+                            <h1>Typography</h1>
+                        </div>
+                        <div class="typography__heading-subtitle">
+                            <p>
+                                Typography means that you can alter the size and alignment of the fonts on your
+                                websites.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="typography__examples">
+
+                        <div class="typography__examples-des">
+                            <p>In typography there are different types like Headings, Small Texts, Alignment Text</p>
+                            <p>
+                                The below examples illustrate the different types of typography. To add any one of
+                                these, simply add the class names.
+                            </p>
+                        </div>
+
+                        <div class="examples__heading-tag">
+                            <h2>Example of Heading text</h2>
+                            <p>You may use <span class="blue-text">h1, h2, h3, h4, h5, and h6</span> components for
+                                headings.<br>
+                                The font-styling is the same for the class names h1, h2, h3, h4, h5, and h6.
+                                To style the text, use one of these classes.
+                        </div>
+
+                        <div class="examples-box">
+                            <div class="headings">
+                                <h1>Heading - <span class="blue-text">1</span></h1>
+                                <h2>Heading - <span class="blue-text">2</span></h2>
+                                <h3>Heading - <span class="blue-text">3</span></h3>
+                                <h4>Heading - <span class="blue-text">4</span></h4>
+                                <h5>Heading - <span class="blue-text">5</span></h5>
+                                <h6>Heading - <span class="blue-text">6</span></h6>
+                            </div>
+                        </div>
+
+                        <div class="iframe">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=154%25&si=false&es=2x&wm=false&code=%253Ch1%253EHeading%2520-%25201%253C%252Fh1%253E%250A%250A%253Ch2%253EHeading%2520-%25202%253C%252Fh2%253E%250A%250A%253Ch3%253EHeading%2520-%25203%253C%252Fh3%253E%250A%250A%253Ch4%253EHeading%2520-%25204%253C%252Fh4%253E%250A%250A%253Ch5%253EHeading%2520-%25205%253C%252Fh5%253E%250A%250A%253Ch6%253EHeading%2520-%25206%253C%252Fh6%253E"
+                                style="width: 100%; height: 294px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+                        <div class="examples__heading-tag">
+                            <h2>Example of Paragraph text</h2>
+                            <p>You may use <span class="blue-text">p tag</span> components for
+                                paragraph<br>
+                                The same font-styling is used for the class name p, as well as the body-cp-rg class.
+                                To style the text, use one of these classes.Aside from that, if you want to change the
+                                size of the text, you may use the body-cp-lg or body-cp-sm classes.
+                        </div>
+
+                        <div class="examples-box">
+                            <div class="paragraph">
+                                <p class="para-lg">P-Paragraph-large-36px/3.6rem</p>
+                                <p class="para-md">P-Paragraph-medium-24px/2.4rem</p>
+                                <p class="para-rg">P-Paragraph-regular-21px/2.1rem</p>
+                                <p class="para-sm">P-Paragraph-small-18px/1.8rem</p>
+                            </div>
+                        </div>
+
+                        <div class="iframe">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522para-lg%2522%253EP-Paragraph-large-36px%252F3.6rem%253C%252Fp%253E%250A%253Cp%2520class%253D%2522para-md%2522%253EP-Paragraph-medium-24px%252F2.4rem%253C%252Fp%253E%250A%253Cp%2520class%253D%2522para-rg%2522%253EP-Paragraph-regular-21px%252F2.1rem%253C%252Fp%253E%250A%253Cp%2520class%253D%2522para-sm%2522%253EP-Paragraph-small-18px%252F1.8rem%253C%252Fp%253E"
+                                style="width: 1024px; height: 173px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+
+                        <div class="examples__heading-tag">
+                            <h2>Example of Aligned Paragraph text</h2>
+                            <p>To position the text, apply the <span class="blue-text">text-center, text-left, and
+                                    text-right</span> classes to the wrapper element.
+
+                        </div>
+
+                        <div class="examples-box-align">
+                            <div class="paragraph-align">
+                                <h3 class="text-left">Heading-left <span class="blue-text">1</span></h3>
+                                <h3 class="text-center">Heading-center <span class="blue-text">2</span></h3>
+                                <h3 class="text-right">Heading-right <span class="blue-text">3</span></h3>
+                            </div>
+                        </div>
+
+                        <div class="iframe">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Ch3%2520class%253D%2522text-left%2522%253EHeading-left%2520%253Cspan%2520class%253D%2522blue-text%2522%253E1%253C%252Fspan%253E%253C%252Fh3%253E%250A%253Ch3%2520class%253D%2522text-center%2522%253EHeading-center%2520%253Cspan%2520class%253D%2522blue-text%2522%253E2%253C%252Fspan%253E%253C%252Fh3%253E%250A%253Ch3%2520class%253D%2522text-right%2522%253EHeading-right%2520%253Cspan%2520class%253D%2522blue-text%2522%253E3%253C%252Fspan%253E%253C%252Fh3%253E"
+                                style="width: 680px; height: 145px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
 
 
 
@@ -109,9 +209,10 @@
 
 
 
-                
-                <!-- Put content here -->
-            </div>
+
+
+                    <!-- Put content here -->
+                </div>
         </section>
     </main>
     <footer>

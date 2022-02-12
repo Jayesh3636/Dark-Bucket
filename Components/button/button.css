@@ -6,7 +6,7 @@
     --secondary-color: rgb(219, 219, 219);
     --hover-secondary-color: rgb(165, 165, 165);
     --hover-dark-gray: rgb(61, 61, 61);
-    --link-text-color:#5b5b5b;
+    --link-text-color: #5b5b5b;
     --white: #fff;
 }
 
@@ -159,8 +159,14 @@ p {
 }
 
 .button__standard-iframe {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #2F1E2E;
+    margin: 2rem 0;
+    border-radius: 12px;
     text-align: center;
-    
+
 }
 
 /* ______________________Secondary____________________________________ */
@@ -252,7 +258,12 @@ p {
 }
 
 .button__secondary-iframe {
-    padding-top: 3rem;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #2F1E2E;
+    margin: 2rem 0;
+    border-radius: 12px;
     text-align: center;
 }
 
@@ -314,5 +325,11 @@ p {
 }
 
 .button__floating-iframe {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #2F1E2E;
+    margin: 2rem 0;
+    border-radius: 12px;
     text-align: center;
 }

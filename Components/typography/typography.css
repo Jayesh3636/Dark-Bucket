@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root {
     --primary-color: #2780f2;
     --hover-primary-color: #1968ce;
@@ -8,7 +9,8 @@
     --link-text-color: #5b5b5b;
     --white: #fff;
 }
-.material-icons{
+
+.material-icons {
     padding-right: .7rem;
 }
 
@@ -17,63 +19,66 @@
     grid-area: content;
     padding: 3rem 1.5rem;
 }
+
 /* span class blue */
-.blue-text{
+.blue-text {
     font-size: inherit;
     color: var(--primary-color)
 }
+
 /* span class blue */
 
-.iframe{
-    
+.iframe {
+
     box-sizing: border-box;
     width: 100%;
     padding: 1rem 0;
     background-color: #2F1E2E;
     margin: 2rem 0;
     border-radius: 12px;
-    
+
     overflow: auto;
     text-align: center;
 }
 
 
 .typography__heading {
-    padding : .5rem;
+    padding: .5rem;
 }
 
 .typography__heading-title h1 {
     font-size: 4.8rem;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     letter-spacing: .05rem;
 
 }
 
-.typography__heading-subtitle p{
+.typography__heading-subtitle p {
     font-size: 2.4rem;
     font-weight: 300;
 }
 
-.typography__examples  {
+.typography__examples {
     margin-top: 2rem;
-    padding : .5rem;
+    padding: .5rem;
 }
 
 
 
 
-.examples__heading-tag{
+.examples__heading-tag {
     padding-top: 2rem;
 }
-.examples__heading-tag h2{
+
+.examples__heading-tag h2 {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
 .examples-box {
     margin-top: 2.5rem;
-    display: flex;    
+    display: flex;
     padding: 3rem;
     background-color: rgb(255, 245, 245);
     border-radius: 12px;
@@ -87,68 +92,116 @@
     color: aliceblue;
 
 }
+
 /* Heading exampples starts */
 
-.headings{
-text-align: left;
+.headings {
+    text-align: left;
 }
 
 /* Heading exampples ends */
 
 /* para exampples starts */
-.paragraph{
+.paragraph {
     text-align: left;
 }
-.para-lg{
-    font-size: 3.6rem;
-}
 
-.para-md{
+.para-lg {
     font-size: 2.4rem;
 }
 
-.para-rg{
-    font-size: 2.1rem;
+.para-md {
+    font-size: 1.4rem;
 }
 
-.para-sm{
-    font-size: 1.8rem;
+.para-rg {
+    font-size: 1.6rem;
 }
+
+.para-sm {
+    font-size: 1.2rem;
+}
+
 
 
 /* para exampples ends */
 
 
 /* aligned text starts */
-.paragraph-align{
+.paragraph-align {
     display: block;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.text-right{
+.text-right {
     text-align: right;
 }
+
 /* aligned text ends */
 
-.examples-box-align{
-        margin-top: 2.5rem;         
-        padding: 3rem;
-        background-color: rgb(255, 245, 245);
-        border-radius: 12px;
-        color: #5b5b5b;
-        text-align: center;
-        transition: all ease-in-out 300ms;
-    }
+.examples-box-align {
+    margin-top: 2.5rem;
+    padding: 3rem;
+    background-color: rgb(255, 245, 245);
+    border-radius: 12px;
+    color: #5b5b5b;
+    text-align: center;
+    transition: all ease-in-out 300ms;
+}
+
+.examples-box-align:hover {
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+
+}
+
+
+/* extras */
+.vertical-middle{
+    justify-content: center;
+    align-items: center;
     
-    .examples-box-align:hover {
-        background-color: rgb(27, 27, 27);
-        color: aliceblue;
+}
+.vertical-middle-self{
+    align-self: center;
+    justify-self: center;
     
-    }
+}
+.text-strike-through{
+    text-decoration: line-through;
+    
+}
+.text-underline{
+    text-decoration: underline;
+    
+}
+.text-bold-weight{
+    font-weight: 700;
+    
+}
+.text-light-weight{
+    font-weight: 300;
+    
+}
+.text-regular-weight{
+    font-weight: 500;
+    
+}
+
+/* color text */
+
+.primary-text-color{
+    color: var(--primary-color);
+    
+}
+.secondary-text-color{
+    color: var(--secondary-text-color);
+    
+}

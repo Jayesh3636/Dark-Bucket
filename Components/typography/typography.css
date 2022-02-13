@@ -51,7 +51,6 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     letter-spacing: .05rem;
-
 }
 
 .typography__heading-subtitle p {
@@ -63,9 +62,6 @@
     margin-top: 2rem;
     padding: .5rem;
 }
-
-
-
 
 .examples__heading-tag {
     padding-top: 2rem;
@@ -164,44 +160,42 @@
 
 
 /* extras */
-.vertical-middle{
+.vertical-middle {
     justify-content: center;
     align-items: center;
-    
 }
-.vertical-middle-self{
+
+.vertical-middle-self {
     align-self: center;
     justify-self: center;
-    
 }
-.text-strike-through{
+
+.text-strike-through {
     text-decoration: line-through;
-    
 }
-.text-underline{
+
+.text-underline {
     text-decoration: underline;
-    
 }
-.text-bold-weight{
+
+.text-bold-weight {
     font-weight: 700;
-    
 }
-.text-light-weight{
+
+.text-light-weight {
     font-weight: 300;
-    
 }
-.text-regular-weight{
+
+.text-regular-weight {
     font-weight: 500;
-    
 }
 
 /* color text */
 
-.primary-text-color{
+.primary-text-color {
     color: var(--primary-color);
-    
 }
-.secondary-text-color{
+
+.secondary-text-color {
     color: var(--secondary-text-color);
-    
 }

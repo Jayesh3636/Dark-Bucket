@@ -11,6 +11,10 @@
     --background--dark: rgb(27, 27, 27);
     --color--dark: #282c3f;
     --background--light: rgb(255, 245, 245);
+    --disabled: #c5c5c5;
+    --fld--border: #d4d5d9;
+    --warning:#ff1158;
+    --valid: #a4ff11;
 
 }
 

@@ -1,3 +1,10 @@
+:root {
+    --disabled: #c5c5c5;
+    --fld--border: #d4d5d9;
+    --warning: #ff1158;
+    --valid: #a4ff11;
+}
+
 .content {
     grid-area: content;
     padding: 3rem 1.5rem;
@@ -25,7 +32,7 @@
     width: 100%;
     display: block;
     padding: .8rem;
-    border: 1px solid #d4d5d9;
+    border: 1px solid var(--fld--border);
     border-radius: 0.5rem;
     line-height: 1.5;
     outline: none;
@@ -37,7 +44,7 @@
     width: 100%;
     display: block;
     padding: .8rem;
-    border: 1px solid #d4d5d9;
+    border: 1px solid var(--fld--border);
     border-radius: 0.5rem;
     line-height: 1.5;
     outline: none;
@@ -60,35 +67,35 @@
 }
 
 .field:disabled {
-    color: #c5c5c5;
+    color: var(--disabled);
 }
 
 .disabled {
-    color: #c5c5c5;
+    color: var(--disabled);
 }
 
 .field:required:invalid {
-    border-color: #ff1158;
+    border-color: var(--warning);
 }
 
 .warning {
-    border-color: #ff1158;
+    border-color: var(--warning);
 }
 
 .warning-lbl {
-    color: #ff1158;
+    color: var(--warning);
 }
 
 .valid {
-    border-color: #a4ff11;
+    border-color: var(--valid);
 }
 
 .valid-lbl {
-    color: #36e709;
+    color: var(--valid);
 }
 
 .field:required:valid {
-    border-color: #52dd02;
+    border-color: var(--valid);
 }
 
 .flex {
@@ -97,7 +104,7 @@
 }
 
 .flex-items {
-    margin: 0rem 1.6rem ;
+    margin: 0rem 1.6rem;
 }
 
 .form-checkbox-field {
@@ -124,5 +131,5 @@
 }
 
 .example-container:hover .warning-lbl {
-    color: #ff1158;
+    color: var(--warning);
 }

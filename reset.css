@@ -1,15 +1,83 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Karla', sans-serif;
-font-size: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #2780f2;
+    --hover-primary-color: #1968ce;
+    --secondary-color: rgb(219, 219, 219);
+    --hover-secondary-color: rgb(165, 165, 165);
+    --hover-dark-gray: rgb(61, 61, 61);
+    --link-text-color: #5b5b5b;
+    --white: #fff;
+    --background--dark: rgb(27, 27, 27);
+    --color--dark: #282c3f;
+    --background--light: rgb(255, 245, 245);
+
 }
 
-h1{font-size:4.8em;}
-h2{font-size:4.0em;}
-h3{font-size:3.2em;}
-h4{font-size:2.8em;}
-h5{font-size:2.4em;}
-h6{font-size:2.0em;}
-p {font-size:1.6em;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 4.8em;
+}
+
+h2 {
+    font-size: 4.0em;
+}
+
+h3 {
+    font-size: 3.2em;
+}
+
+h4 {
+    font-size: 2.8em;
+}
+
+h5 {
+    font-size: 2.4em;
+}
+
+h6 {
+    font-size: 2.0em;
+}
+
+p {
+    font-size: 1.6em;
+}
+
+
+
+.heading-title {
+    font-size: 2.2rem;
+}
+
+.examples-heading {
+    padding-top: 3rem;
+}
+
+.examples {
+    margin-top: 2rem;
+    padding: .5rem;
+}
+
+.example-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.6rem;
+    margin: 2rem 0;
+    align-items: baseline;
+    border-radius: 1.2rem;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--background--light);
+    transition: all ease-in-out 300ms;
+}
+
+.example-container:hover {
+    background-color: var(--background--dark);
+}

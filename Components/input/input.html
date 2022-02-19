@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="../image/image.css">
+    <link rel="stylesheet" href="../button/button.css">
+    <link rel="stylesheet" href="../typography/typography.css">
+    <link rel="stylesheet" href="../library.css">
+    <link rel="stylesheet" href="../../reset.css">
+    <link rel="stylesheet" href="../card/card.css">
+    <link rel="stylesheet" href="../input/input.css">
+    <title>DarkBucket</title>
+    <link rel="icon" href="images/ICON.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav__left">
+                <a href="../../Index.html">
+                    <div class="nav__logo">
+                        <img src="../../images/DARKBUCKET-title.svg" class="nav__logo">
+                    </div>
+                </a>
+            </div>
+            <div class="nav__right">
+                <div class="social-media-list">
+                    <ul class="social-media-list">
+                        <li class="social-media-items"><a href="#"><img class="icon-height"
+                                    src="../../images/Linkedin.png" alt="Linkedin"></a></li>
+                        <li class="social-media-items"><a href="#"><img class="icon-height"
+                                    src="../../images/github.png" alt="github"></a>
+                        </li>
+                        <li class="social-media-items"><a href="#"><img class="icon-height"
+                                    src="../../images/twitter.png" alt="twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="grid-layout">
+        <!-- first page -->
+        <div class="bar"></div>
+        <div class="CUBE1"></div>
+        <div class="CUBE2"></div>
+        <div class="CUBE3"></div>
+        <div class="CUBE4"></div>
+
+
+
+
+        <!-- side bar starts -->
+        <section class="sidebar">
+
+            <div class="sidebar__heading">
+                <h2 class="sidebar__heading-name">COMPONENTS</h2>
+            </div>
+            <div class="background-sidebar">
+                <ul class="sidebar__links">
+                    <a href="../alert/alert.html">
+                        <li class="sidebar__link-item">ALERT</li>
+                    </a>
+                    <a href="../avatar/avatar.html">
+                        <li class="sidebar__link-item">AVATAR</li>
+                    </a>
+                    <a href="../badge/badge.html">
+                        <li class="sidebar__link-item">BADGE</li>
+                    </a>
+                    <a href="../button/button.html">
+                        <li class="sidebar__link-item">BUTTONS</li>
+                    </a>
+                    <a href="../card/card.html">
+                        <li class="sidebar__link-item">CARD</li>
+                    </a>
+                    <a href="../image/image.html">
+                        <li class="sidebar__link-item">IMAGE</li>
+                    </a>
+                    <a href="#header">
+                        <li class="sidebar__links-li-active">INPUTS</li>
+                    </a>
+                    <a href="../typography/typography.html">
+                        <li class="sidebar__link-item">TYPOGRAPHY</li>
+                    </a>
+                    <a href="../modal/modal.html">
+                        <li class="sidebar__link-item">MODAL</li>
+                    </a>
+                    <a href="../slider/alert.html">
+                        <li class="sidebar__link-item">SLIDER</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- side bar ends -->
+        </section>
+
+        <section class="content">
+
+            <div class="content-over-bg">
+
+                <!-- Put content here -->
+                <div id="input">
+                    <div class="heading">
+                        <div class="heading-title">
+                            <h2>Input</h2>
+                        </div>
+                        <div class="heading-subtitle">
+                            <p class="para-lg">
+                                Inputs are used to receive input from the user.
+                                They are used in forms to gather information and validate it.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="input__examples-des">
+                        <h5>
+                            Inputs can be of different types based on their use case.
+                        </h5>
+                        <p class="para-rg">
+                            Below examples illustrate the different types of input fields.
+
+                        </p>
+
+                        <h1 class="examples-heading">Example of basic inputs</h1>
+                        <p class="para-rg"> Below Given are 5 sample of basic inputs with different styles like
+                            <span class="blue-text"> basic, active, disabled, warning and error</span></p>
+
+
+                        <!-- <basic input starts> -->
+                        <h3 class="examples-heading">Basic Input</h3>
+                        <p class="para-rg"> This basic input is just blank input box style with a hovering effect to let
+                            the user know that its a input box!
+                            <br>
+                            there are total 4 types
+                            <br><br>
+                            Copy the code below and you're ready to go. </p>
+
+
+                        <div class="example-container">
+
+                            <label class="label para-rg">Text</label>
+                            <input type="text" class="field-hover" placeholder="start writing here.." rows="3">
+
+                            <label class="label para-rg">Number</label>
+                            <input type="number" class="field" placeholder="Select Number">
+
+                            <label class="label para-rg">Password</label>
+                            <input type="password" class="field" placeholder="Enter your Password">
+
+                            <label class="label label-required-field para-rg">Email address</label>
+                            <input type="email" class="field-hover" placeholder="name@example.com" required>
+
+                        </div>
+                        <div class="iframe"><iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522label%2520para-rg%2522%253EText%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522field-hover%2522%2520placeholder%253D%2522start%2520writing%2520here..%2522%2520rows%253D%25223%2522%253E%250A%250A%253Clabel%2520class%253D%2522label%2520para-rg%2522%253ENumber%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522field%2522%2520placeholder%253D%2522Select%2520Number%2522%253E%250A%250A%253Clabel%2520class%253D%2522label%2520para-rg%2522%253EPassword%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522field%2522%2520placeholder%253D%2522Enter%2520your%2520Password%2522%253E%250A%250A%253Clabel%2520class%253D%2522label%2520label-required-field%2520para-rg%2522%253EEmail%2520address%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522field-hover%2522%2520placeholder%253D%2522name%2540example.com%2522%2520required%253E"
+                                style="width: 100%; height: 379px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+                        <!-- acitve input starts -->
+                        <h3 class="examples-heading">Active Inputs</h3>
+                        <p class="para-rg"> This Active input is just input box style with border color and is used when
+                            the user selects the input or types-in.
+                            <br><br>
+                            Copy the code below and you're ready to go. </p>
+
+                        <div class="example-container">
+                            <label class="label label-required-field para-rg">Email address</label>
+                            <input type="email" class="field" placeholder="name@example.com" required>
+
+                            <label class="label para-rg">Comments</label>
+                            <textarea type="email" class="field textarea" placeholder="start writing here.."
+                                rows="3"></textarea>
+                        </div>
+                        <div class="iframe"><iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522label%2520label-required-field%2520para-rg%2522%253EEmail%2520address%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522field%2522%2520placeholder%253D%2522name%2540example.com%2522%2520required%253E%250A%250A%253Clabel%2520class%253D%2522label%2520para-rg%2522%253EComments%253C%252Flabel%253E%250A%253Ctextarea%2520type%253D%2522email%2522%2520class%253D%2522field%2520textarea%2522%2520placeholder%253D%2522start%2520writing%2520here..%2522%2520rows%253D%25223%2522%253E%253C%252Ftextarea%253E"
+                                style="width: 100%; height: 203px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+                        <!-- Disabled input starts -->
+                        <h3 class="examples-heading">Disabled Inputs</h3>
+                        <p class="para-rg"> The disabled input is just input box style with disabled input property and
+                            mostly used when user isnt allowed to to enter data/input.
+                            <br><br>
+                            Copy the code below and you're ready to go. </p>
+
+                        <div class="example-container">
+                            <label class="label disabled para-rg">Email address</label>
+                            <input type="email" class="field " placeholder="name@example.com" disabled>
+
+                            <label class="label disabled para-rg">Comments</label>
+                            <textarea type="email" class="field textarea " placeholder="start writing here.." rows="3"
+                                disabled></textarea>
+                        </div>
+                        <div class="iframe"><iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522label%2520disabled%2520para-rg%2522%253EEmail%2520address%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522field%2520%2522%2520placeholder%253D%2522name%2540example.com%2522%2520disabled%253E%250A%250A%253Clabel%2520class%253D%2522label%2520disabled%2520para-rg%2522%253EComments%253C%252Flabel%253E%250A%253Ctextarea%2520type%253D%2522email%2522%2520class%253D%2522field%2520textarea%2520%2522%2520placeholder%253D%2522start%2520writing%2520here..%2522%2520rows%253D%25223%2522%2520disabled%253E%253C%252Ftextarea%253E"
+                                style="width: 100%; height: 203px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+
+                        <!-- Invalid input starts -->
+                        <h3 class="examples-heading">Invalid Inputs</h3>
+                        <p class="para-rg"> The warning input is just input box style with invalid
+                            css property and mostly used when user inputs invalid data and also consider blank input
+                            invalid.
+                            <br><br>
+                            Copy the code below and you're ready to go. </p>
+
+
+                        <div class="example-container">
+                            <label class="label para-rg">Email address</label>
+                            <input type="email" class="field" placeholder="name@example.com" required>
+                        </div>
+                        <div class="iframe"><iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522label%2520para-rg%2522%253EEmail%2520address%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522field%2522%2520placeholder%253D%2522name%2540example.com%2522%2520required%253E"
+                                style="width: 100%; height: 116px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+
+
+
+                        <!-- valid input starts -->
+                        <h3 class="examples-heading">Valid Inputs</h3>
+                        <p class="para-rg"> The Valid input is just input box style with valid
+                            css property and mostly used when we want to confirm passwords or validate OTP.
+                            <br><br>
+                            Copy the code below and you're ready to go. </p>
+
+
+                        <div class="example-container">
+                            <label class="label para-rg">Email address</label>
+                            <input type="email" class="field" placeholder="name@example.com" required>
+                        </div>
+
+                        <div class="iframe"><iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522label%2520para-rg%2522%253EEmail%2520address%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522field%2522%2520placeholder%253D%2522name%2540example.com%2522%2520required%253E"
+                                style="width: 100%; height: 116px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+                        <!-- Checkbox and radio start -->
+                        <h3 class="examples-heading">Check box and Radio Buttons</h3>
+                        <p class="para-rg"> Check boxes or radio buttons are mostly types of input tag whic are mostly
+                            used in selecting from options.
+                            <br><br>
+                            Copy the code below and you're ready to go. </p>
+
+                        <h5 class="examples-heading">Radio buttons:</h5>
+                        <div class="example-container">
+                            <div class="flex">
+                                <div class="flex-items">
+                                    <input class="form-checkbox-field" type="radio" name="gender" value="F" id="female">
+                                    <label for="female" class="label para-rg">Female</label>
+                                </div>
+                                <div class="flex-items">
+                                    <input class="form-checkbox-field" type="radio" name="gender" value="F" id="female">
+                                    <label for="female" class="label para-rg">Male</label>
+                                </div>
+                                <div class="flex-items">
+                                    <input class="form-checkbox-field" type="radio" name="gender" value="F" id="female">
+                                    <label for="female" class="label para-rg">Other</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="iframe">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-checkbox-field%2522%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520value%253D%2522F%2522%2520id%253D%2522female%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522female%2522%2520class%253D%2522label%2520para-rg%2522%253EFemale%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-checkbox-field%2522%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520value%253D%2522F%2522%2520id%253D%2522female%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522female%2522%2520class%253D%2522label%2520para-rg%2522%253EMale%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-checkbox-field%2522%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520value%253D%2522F%2522%2520id%253D%2522female%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522female%2522%2520class%253D%2522label%2520para-rg%2522%253EOther%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                style="width: 100%; height: 467px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+
+                        </div>
+
+                        <h5 class="examples-heading">Checkbox buttons:</h5>
+                        <div class="example-container">
+                            <div class="flex">
+                                <div class="flex-items">
+                                    <input class="form-checkbox-field" type="checkbox" name="gender" value="F"
+                                        id="female">
+                                    <label for="female" class="label para-rg">add</label>
+                                </div>
+                                <div class="flex-items">
+                                    <input class="form-checkbox-field" type="checkbox" name="gender" value="F"
+                                        id="female">
+                                    <label for="female" class="label para-rg">sub</label>
+                                </div>
+                                <div class="flex-items">
+                                    <input class="form-checkbox-field" type="checkbox" name="gender" value="F"
+                                        id="female">
+                                    <label for="female" class="label para-rg">div</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="iframe"><iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-checkbox-field%2522%2520type%253D%2522checkbox%2522%2520name%253D%2522gender%2522%2520value%253D%2522F%2522%2520id%253D%2522female%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522female%2522%2520class%253D%2522label%2520para-rg%2522%253Eadd%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-checkbox-field%2522%2520type%253D%2522checkbox%2522%2520name%253D%2522gender%2522%2520value%253D%2522F%2522%2520id%253D%2522female%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522female%2522%2520class%253D%2522label%2520para-rg%2522%253Esub%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522form-checkbox-field%2522%2520type%253D%2522checkbox%2522%2520name%253D%2522gender%2522%2520value%253D%2522F%2522%2520id%253D%2522female%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522female%2522%2520class%253D%2522label%2520para-rg%2522%253Ediv%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                style="width: 100%; height: 467px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-txt">
+                Made by JCREA</div>
+        </div>
+    </footer>
+</body>
+
+</html>

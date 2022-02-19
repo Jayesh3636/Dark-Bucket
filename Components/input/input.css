@@ -59,6 +59,10 @@
     border: 2px solid var(--primary-color);
 }
 
+.field:disabled {
+    color: #c5c5c5;
+}
+
 .disabled {
     color: #c5c5c5;
 }

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="../image/image.css">
+    <link rel="stylesheet" href="../button/button.css">
+    <link rel="stylesheet" href="../typography/typography.css">
+    <link rel="stylesheet" href="../library.css">
+    <link rel="stylesheet" href="../../reset.css">
+    <link rel="stylesheet" href="../card/card.css">
+    <link rel="stylesheet" href="../input/input.css">
+    <link rel="stylesheet" href="../slider/slider.css">
+    <title>DarkBucket</title>
+    <link rel="icon" href="images/ICON.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav__left">
+                <a href="../../Index.html">
+                    <div class="nav__logo">
+                        <img src="../../images/DARKBUCKET-title.svg" class="nav__logo">
+                    </div>
+                </a>
+            </div>
+            <div class="nav__right">
+                <div class="social-media-list">
+                    <ul class="social-media-list">
+                        <li class="social-media-items"><a href="#"><img class="icon-height"
+                                    src="../../images/Linkedin.png" alt="Linkedin"></a></li>
+                        <li class="social-media-items"><a href="#"><img class="icon-height"
+                                    src="../../images/github.png" alt="github"></a>
+                        </li>
+                        <li class="social-media-items"><a href="#"><img class="icon-height"
+                                    src="../../images/twitter.png" alt="twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="grid-layout">
+        <!-- first page -->
+        <div class="bar"></div>
+        <div class="CUBE1"></div>
+        <div class="CUBE2"></div>
+        <div class="CUBE3"></div>
+        <div class="CUBE4"></div>
+
+
+
+
+        <!-- side bar starts -->
+        <section class="sidebar">
+
+            <div class="sidebar__heading">
+                <h2 class="sidebar__heading-name">COMPONENTS</h2>
+            </div>
+            <div class="background-sidebar">
+                <ul class="sidebar__links">
+                    <a href="../alert/alert.html">
+                        <li class="sidebar__link-item">ALERT</li>
+                    </a>
+                    <a href="../avatar/avatar.html">
+                        <li class="sidebar__link-item">AVATAR</li>
+                    </a>
+                    <a href="../badge/badge.html">
+                        <li class="sidebar__link-item">BADGE</li>
+                    </a>
+                    <a href="../button/button.html">
+                        <li class="sidebar__link-item">BUTTONS</li>
+                    </a>
+                    <a href="../card/card.html">
+                        <li class="sidebar__link-item">CARD</li>
+                    </a>
+                    <a href="../image/image.html">
+                        <li class="sidebar__link-item">IMAGE</li>
+                    </a>
+                    <a href="#header">
+                        <li class="sidebar__link-item">INPUTS</li>
+                    </a>
+                    <a href="../typography/typography.html">
+                        <li class="sidebar__link-item">TYPOGRAPHY</li>
+                    </a>
+                    <a href="../modal/modal.html">
+                        <li class="sidebar__link-item">MODAL</li>
+                    </a>
+                    <a href="#header">
+                        <li class="sidebar__links-li-active">SLIDER</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- side bar ends -->
+        </section>
+
+        <section class="content">
+
+            <div class="content-over-bg">
+
+                <!-- Put content here -->
+                <div id="slider">
+                    <div class="heading">
+                        <div class="heading-title">
+                            <h2>Sliders:</h2>
+                        </div>
+                        <div class="heading-subtitle">
+                            <p class="para-lg">
+                                Sliders are used to determine the range of things, such as sound in video, pricing in
+                                shopping sites, and so on.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="example-container">
+                        <div class="slider-container range-slider">
+                            <label class="para-rg label-active">PRICE :</label>
+                            <div>
+                                <div class="price-tags">
+                                    <div class="RS-small-label-l">₹0</div>
+                                    <div class="RS-small-label-r">₹10,000</div>
+                                </div>
+
+                                <input id="demo" type="range" step="500" min="0" max="75000"
+                                    style="background: var(--primary-color) repeat scroll 0% 0%;">
+
+                            </div>
+                        </div>
+                        <div class="disabled slider-container range-slider ">
+                            <label disabled class="para-rg">PRICE :</label>
+                            <div>
+                                <div class="price-tags">
+                                    <div class="RS-small-label-l disabled">₹0</div>
+                                    <div class="RS-small-label-r disabled">₹10,000</div>
+                                </div>
+
+                                <input class="slider" disabled id="demo" type="range" step="500" min="0" max="75000"
+                                    style="background: var(--disabled) repeat scroll 0% 0%;">
+
+                            </div>
+                        </div>
+                        <div class="slider-container range-slider ">
+                            <label disabled class="para- label-active">
+                                <span class="material-icons"> volume_up </span></label>
+                            <div>
+                                <div class="price-tags">
+                                    <div class="RS-small-label-l ">+</div>
+                                    <div class="RS-small-label-r ">-</div>
+                                </div>
+
+                                <input class="slider" id="demo" type="range" step="500" min="0" max="75000"
+                                    style="background: var(--primary-color) repeat scroll 0% 0%;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <p class="para-rg">Active</p>
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2520range-slider%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522para-rg%2520label-active%2522%253EPRICE%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-tags%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522RS-small-label-l%2522%253E%25E2%2582%25B90%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522RS-small-label-r%2522%253E%25E2%2582%25B910%252C000%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522demo%2522%2520type%253D%2522range%2522%2520step%253D%2522500%2522%2520min%253D%25220%2522%2520max%253D%252275000%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520style%253D%2522background%253A%2520var%28--primary-color%29%2520repeat%2520scroll%25200%2525%25200%2525%253B%2522%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            style="width: 100%; height: 408px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <p class="para-rg">Disabled</p>
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522disabled%2520slider-container%2520range-slider%2520%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520disabled%2520class%253D%2522para-rg%2522%253EPRICE%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-tags%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522RS-small-label-l%2520disabled%2522%253E%25E2%2582%25B90%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522RS-small-label-r%2520disabled%2522%253E%25E2%2582%25B910%252C000%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522slider%2522%2520disabled%2520id%253D%2522demo%2522%2520type%253D%2522range%2522%2520step%253D%2522200%2522%2520min%253D%25220%2522%2520max%253D%252210000%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520style%253D%2522background%253A%2520var%28--disabled%29%2520repeat%2520scroll%25200%2525%25200%2525%253B%2522%253E%250A%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: 437px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+
+                    </div>
+                    <p class="para-rg">With symbol</p>
+                    <div class="iframe">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=css&width=&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Droid+Sans+Mono&fs=14px&lh=209%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2520range-slider%2520%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520disabled%2520class%253D%2522para-%2520label-active%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%2520volume_up%2520%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-tags%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522RS-small-label-l%2520%2522%253E%252B%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522RS-small-label-r%2520%2522%253E-%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522slider%2522%2520id%253D%2522demo%2522%2520type%253D%2522range%2522%2520step%253D%2522500%2522%2520min%253D%25220%2522%2520max%253D%252275000%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520style%253D%2522background%253A%2520var%28--primary-color%29%2520repeat%2520scroll%25200%2525%25200%2525%253B%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 100%; height: 425px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-txt">
+                Made by JCREA</div>
+        </div>
+    </footer>
+</body>
+
+</html>

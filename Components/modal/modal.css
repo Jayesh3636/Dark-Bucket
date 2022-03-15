@@ -54,10 +54,13 @@
     right: 7px;
 }
 
-.CTA-Container {
-    justify-content: center;
-    padding-top: 1.5rem;
+
+
+/* justify center */
+.jcc{
+justify-content: center;
 }
+/* justify center */
 
 .btn-text-icon-primary-wn {
     display: flex;

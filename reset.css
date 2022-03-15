@@ -17,7 +17,11 @@
     --fld--border: #d4d5d9;
     --warning:#ff1158;
     --valid: #a4ff11;
-
+    --rating-active:#ffa600;
+    --rating-unactive:#8383837e;
+    --iframe:#2f1e2e;
+    --example-box-color:rgb(255, 245, 245);
+    --example-box-color-hover:rgb(27, 27, 27);
 }
 
 * {

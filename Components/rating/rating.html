@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link rel="stylesheet" href="../image/image.css">
+    <link rel="stylesheet" href="../button/button.css">
+    <link rel="stylesheet" href="../typography/typography.css">
+    <link rel="stylesheet" href="../library.css">
+    <link rel="stylesheet" href="../../reset.css">
+    <link rel="stylesheet" href="../card/card.css">
+    <link rel="stylesheet" href="../input/input.css">
+    <link rel="stylesheet" href="../modal/modal.css">
+    <link rel="stylesheet" href="../rating/rating.css">
+
+    <title>DarkBucket</title>
+    <link rel="icon" href="images/ICON.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav__left">
+                <a href="../../Index.html">
+                    <div class="nav__logo">
+                        <img src="../../images/DARKBUCKET-title.svg" class="nav__logo">
+                    </div>
+                </a>
+            </div>
+            <div class="nav__right">
+                <div class="social-media-list">
+                    <ul class="social-media-list">
+                        <li class="social-media-items"><a target="_blank"
+                                href="https://www.linkedin.com/in/jayesh-patil-150b60150/"><img class="icon-height"
+                                    src="../../images/Linkedin.png" alt="Linkedin"></a></li>
+                        <li class="social-media-items"><a target="_blank" href="https://github.com/Jayesh3636"><img
+                                    class="icon-height" src="../../images/github.png" alt="github"></a>
+                        </li>
+                        <li class="social-media-items"><a target="_blank" href="https://twitter.com/Jayesh3636"><img
+                                    class="icon-height" src="../../images/twitter.png" alt="twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="grid-layout">
+        <!-- first page -->
+        <div class="bar"></div>
+        <div class="CUBE1"></div>
+        <div class="CUBE2"></div>
+        <div class="CUBE3"></div>
+        <div class="CUBE4"></div>
+
+
+
+
+        <!-- side bar starts -->
+        <section class="sidebar">
+
+            <div class="sidebar__heading">
+                <h2 class="sidebar__heading-name">COMPONENTS</h2>
+            </div>
+            <div class="background-sidebar">
+                <ul class="sidebar__links">
+                    <a href="../alert/alert.html">
+                        <li class="sidebar__link-item">ALERT</li>
+                    </a>
+                    <a href="../avatar/avatar.html">
+                        <li class="sidebar__link-item">AVATAR</li>
+                    </a>
+                    <a href="../badge/badge.html">
+                        <li class="sidebar__link-item">BADGE</li>
+                    </a>
+                    <a href="../button/button.html">
+                        <li class="sidebar__link-item">BUTTONS</li>
+                    </a>
+                    <a href="../card/card.html">
+                        <li class="sidebar__link-item">CARD</li>
+                    </a>
+                    <a href="../image/image.html">
+                        <li class="sidebar__link-item">IMAGE</li>
+                    </a>
+                    <a href="../input/input.html">
+                        <li class="sidebar__link-item">INPUTS</li>
+                    </a>
+                    <a href="../typography/typography.html">
+                        <li class="sidebar__link-item">TYPOGRAPHY</li>
+                    </a>
+                    <a href="../modal/modal.html">
+                        <li class="sidebar__link-item">MODAL</li>
+                    </a>
+                    <a href="../slider/slider.html">
+                        <li class="sidebar__link-item">SLIDER</li>
+                    </a>
+                    <a href="#header">
+                        <li class="sidebar__links-li-active">RATING</li>
+                    </a>
+                    <a href="../toast/toast.html">
+                        <li class="sidebar__link-item">TOAST</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- side bar ends -->
+        </section>
+
+        <section class="content">
+
+            <div class="content-over-bg">
+
+                <!-- Put content here -->
+                <div id="rating">
+                    <div class="heading">
+                        <div class="heading-title">
+                            <h2>Rating</h2>
+                        </div>
+                        <div class="heading-subtitle">
+                            <p class="para-lg">
+                                Modals are placed above everything else in the content and prevent the page from
+                                scrolling.
+                                Only the close button on the modal pop-up closes it.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="input__examples-des">
+                        <h5>Samples</h5>
+                        <div class="example-container fdr display-flex-items space-evenly">
+                            <!-- Rating- input element read-only -->
+                            <div class="rating">
+                                <div class="rating-star-container flex-items">
+                                    <label>
+                                        <input class="rating-star-input" type="checkbox" checked disabled>
+                                        <span class="material-icons-round rating-star-icon"> star </span>
+
+                                    </label>
+                                    <label>
+                                        <input class="rating-star-input" type="checkbox" checked disabled>
+                                        <span class="material-icons-round rating-star-icon"> star </span>
+                                    </label>
+                                    <label>
+                                        <input class="rating-star-input" type="checkbox" checked disabled>
+                                        <span class="material-icons-round rating-star-icon"> star </span>
+                                    </label>
+                                    <label>
+                                        <input class="rating-star-input" type="checkbox" disabled>
+                                        <span class="material-icons-round rating-star-icon"> star </span>
+                                    </label>
+                                    <label>
+                                        <input class="rating-star-input" type="checkbox" disabled>
+                                        <span class="material-icons-round rating-star-icon"> star </span>
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- Rating badge, read only -->
+                            <div class="rating-badge-1">
+                                <span class="material-icons-round rating-star-icon rating-active-color"> star </span>
+                                <span class="material-icons-round rating-star-icon rating-active-color"> star </span>
+                                <span class="material-icons-round rating-star-icon rating-active-color"> star </span>
+                            </div>
+                            <div class="rating-badge-2">
+                                <span class="material-icons-round rating-star-icon rating-active-color"> star </span>
+                                <span class="rating-badge-number">3</span>
+                            </div>
+                        </div>
+                        <div class="iframe">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-star-container%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520checked%2520disabled%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520rating-star-icon%2522%253E%2520star%2520%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520checked%2520disabled%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520rating-star-icon%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520checked%2520disabled%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520rating-star-icon%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520disabled%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520rating-star-icon%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520disabled%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520rating-star-icon%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                style="width: 100%; height: 522px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                        <div class="iframe">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-badge-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520rating-star-icon%2520rating-active-color%2522%253E%2520%2520%2520%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520rating-star-icon%2520rating-active-color%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520rating-star-icon%2520rating-active-color%2522%253E%2520star%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                                style="width: 100%; height: 206px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                        <div class="iframe">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=paraiso-dark&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-badge-2%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520rating-star-icon%2520rating-active-color%2522%253E%2520star%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-badge-number%2522%253E3%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                                style="width: 100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+
+                        </div>
+
+                        <h5>Examples</h5>
+                        <div class="example-container align-items-center">
+                            <div class="card-horizontal-type-1 default-container">
+                                <div class="image-container badge-container">
+                                    <img loading="lazy" class="img-resp card-img" src="../../images/card/1.jpg"
+                                        alt="product-image">
+                                    <span class="badge bg-primary">New</span>
+                                </div>
+
+                                <div class="text-container">
+                                    <div class="text-container-title">
+                                        <h5>Blue Dress</h5>
+                                        <div class="rating-badge">
+                                            <span class="material-icons-round rating-star-icon rating-active-color">
+                                                star
+                                            </span>
+                                            <span class="material-icons-round rating-star-icon rating-active-color">
+                                                star
+                                            </span>
+                                            <span class="material-icons-round rating-star-icon rating-active-color">
+                                                star
+                                            </span>
+                                            <!-- <span class="rating-badge-number">3</span> -->
+                                        </div>
+                                        <p class="para-md text-regular-weight">Girls Blue Top<br>
+                                            <small class="para-sm text-light-weight secondary-text-color">Sold by: Lil
+                                                Picks</small>
+                                        </p>
+                                    </div>
+                                    <div class="text-container-desc">
+                                        <p class="para-reg">White and blue printed playsuit with knot detail, has a
+                                            shirt collar, sleeveless,
+                                            button closures</p>
+                                    </div>
+                                    <div class="CTA-Container">
+                                        <button class="btn btn-text-icon-primary">
+                                            <span class="material-icons">shopping_cart</span>Add to Cart</button>
+                                        <button class="btn btn-outline-secondary"><span class="material-icons">
+                                                favorite_border
+                                            </span>Move to Wishlist</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-container-vertical">
+                            <div class="card-vertical flex-items shadow-box">
+
+                                <div class="image-container badge-container">
+                                    <img loading="lazy" class="img-resp card-img" src="../../images/card/1.jpg"
+                                        alt="product-image">
+                                    <span class="badge bg-primary">New</span>
+                                    <div class="rating-badge-2 rating-vertical-card-ps">
+                                        <span class="material-icons-round rating-star-icon rating-active-color">
+                                            star </span>
+                                        <span class="rating-badge-number">5</span>
+                                    </div>
+                                </div>
+                                <div class="text-container">
+                                    <div class="text-container-title">
+                                        <h6 class="text-regular-weight product-title">Blue top<button
+                                                class="like-btn link-no-style"><span class="material-icons">
+                                                    favorite
+                                                </span></button></h6>
+                                    </div>
+                                    <div class="text-container-desc">
+                                        <p class="para-md">Casual Regular Sleeves Solid Women Blue Top</p>
+                                        <p class="text-regular-weight ">Rs.899
+                                            <span class="text-light-weight para-rg">
+                                                <span class="text-strike-through para-rg">Rs.999</span>
+                                                <span class="primary-text-color para-rg">10%</span></span></p>
+                                    </div>
+                                    <div class="CTA-Container">
+                                        <button class="btn  btn-text-icon-primary">
+                                            <span class="material-icons">shopping_cart</span>Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-vertical default-container flex-items shadow-box">
+
+                                <div class="image-container badge-container">
+                                    <img loading="lazy" class="img-resp card-img" src="../../images/card/1.jpg"
+                                        alt="product-image">
+                                    <span class="badge bg-primary">New</span>
+                                    <div class="rating-badge-2 rating-vertical-card-ps">
+                                        <span class="material-icons-round rating-star-icon rating-active-color">
+                                            star </span>
+                                        <span class="rating-badge-number">5</span>
+                                    </div>
+                                </div>
+                                <div class="text-container">
+                                    <div class="text-container-title">
+                                        <h6 class="text-regular-weight product-title">Blue Top<button
+                                                class="like-btn link-no-style"><span class="material-icons">
+                                                    favorite
+                                                </span></button></h6>
+                                    </div>
+                                    <div class="text-container-desc display-flex-column">
+                                        <p class="para-md">Casual Regular Sleeves Solid Women Blue Top</p>
+                                        <p class="text-regular-weight flex-grow">Rs.899 <span
+                                                class="text-light-weight para-rg"><span
+                                                    class="text-strike-through para-rg">Rs.999</span><span
+                                                    class="primary-text-color para-rg"> 10%</span></span></p>
+                                    </div>
+                                    <div class="CTA-Container">
+                                        <button class="btn  btn-text-icon-primary">
+                                            <span class="material-icons">shopping_cart</span>Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-vertical flex-items shadow-box">
+                                <button type="button" class="btn-close"></button>
+                                <div class="image-container badge-container">
+                                    <img loading="lazy" class="img-resp card-img" src="../../images/card/1.jpg"
+                                        alt="product-image">
+                                    <span class="badge bg-primary">New</span>
+                                    <div class="rating-badge-2 rating-vertical-card-ps">
+                                        <span class="material-icons-round rating-star-icon rating-active-color">
+                                            star </span>
+                                        <span class="rating-badge-number">5</span>
+                                    </div>
+                                </div>
+                                <div class="text-container">
+                                    <div class="text-container-title">
+                                        <h6 class="text-regular-weight product-title">Blue Top<button
+                                                class="like-btn link-no-style"><span class="material-icons">
+                                                    favorite
+                                                </span></button></h6>
+                                    </div>
+                                    <div class="text-container-desc">
+                                        <p class="para-md">Casual Regular Sleeves Solid Women Blue Top</p>
+                                        <p class="text-regular-weight">Rs.899 <span
+                                                class="text-light-weight para-rg"><span
+                                                    class="text-strike-through para-rg">Rs.999 </span><span
+                                                    class="primary-text-color para-rg">10%</span></span></p>
+                                    </div>
+                                    <div class="CTA-Container">
+                                        <a class="btn btn-text-icon-primary"><span class="btn-icon"><i
+                                                    class="fas fa-shopping-cart"></i></span>Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-txt">
+                Made by JCREA</div>
+        </div>
+    </footer>
+
+    <script src="../modal/modal.js"></script>
+</body>
+
+</html>

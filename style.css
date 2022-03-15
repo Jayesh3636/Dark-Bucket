@@ -324,3 +324,34 @@ background-color: #ff4e00;
     text-align: center;
     font-size: 2.4rem;
 }
+
+@media (max-width: 1280px){
+    .logo{
+        
+        height: 4rem;
+    }
+
+    .installation-title-background {
+        display: flex;
+        position: absolute;
+        width: 275px;
+        height: 69px;
+        left: 92rem;
+        top: 1147px;
+        text-align: center;
+        justify-content: center;
+        background: #251D22;
+        box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+      }
+
+      .installation-proc {
+        padding: 2rem 5rem 5rem 5rem;
+        text-align: left;
+      }
+
+      .carbon {
+        margin-top: 2rem;
+        
+    }
+}

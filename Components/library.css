@@ -12,20 +12,20 @@ html {
 }
 
 ::-webkit-scrollbar {
-    
+
     width: 4px;
-    background:rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
 }
 
 ::-webkit-scrollbar-track {
-   background: rgba(0, 0, 0, 0.794);
+    background: rgba(0, 0, 0, 0.794);
     border-radius: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 15px;
-    background:rgb(236, 57, 102);
-} 
+    background: rgb(236, 57, 102);
+}
 
 /* body */
 body {
@@ -182,14 +182,14 @@ h2 {
 
 /* side bar starts */
 .sidebar {
-   
+
     padding-left: 6.6rem;
 }
 
 .background-sidebar {
     position: absolute;
     width: 237px;
-    height: 625px;
+    height: 755px;
     left: 102px;
     top: 24rem;
     background: rgba(0, 0, 0, 0.05);
@@ -228,16 +228,16 @@ h2 {
 .sidebar__links a {
 
     color: rgb(255, 255, 255);
-    
+
 }
 
 .sidebar__links li:hover {
     letter-spacing: .05em;
     font-weight: 600;
-     border-radius: 10px;
-     font-size: 2.4rem;
-     
-     
+    border-radius: 10px;
+    font-size: 2.4rem;
+
+
 }
 
 .sidebar__links-li-active {
@@ -252,11 +252,11 @@ h2 {
 
     letter-spacing: .05em;
     font-weight: 600;
-     border-radius: 10px;
-     font-size: 2.4rem;
-     
-     
-} 
+    border-radius: 10px;
+    font-size: 2.4rem;
+
+
+}
 
 .sidebar__link-item {
     list-style: none;
@@ -272,10 +272,10 @@ h2 {
 
 /* content starts */
 
-.content  {
-    
+.content {
+
     overflow: auto;
-    
+
     max-height: 140rem;
 
     z-index: 5;
@@ -288,22 +288,24 @@ h2 {
     backdrop-filter: blur(35px);
 
     border-radius: 12px;
-    
+
     max-width: 130rem;
     z-index: 0;
     transition: all ease-in-out 500ms;
 
 }
-.content:hover{
+
+.content:hover {
     background: rgba(0, 0, 0, 0.60);
 
 }
+
 .content-over-bg {
 
-    
+
     font-weight: 400;
     font-size: 2.4rem;
-    font-family: 'Karla',sans-serif;
+    font-family: 'Karla', sans-serif;
     padding: 5rem;
     color: #FFF;
 }
@@ -319,8 +321,8 @@ h2 {
     max-width: 1200px;
     margin: 3rem auto auto auto;
     padding: 5rem 0rem 5rem 0rem;
-z-index: 6;
-position: relative;
+    z-index: 6;
+    position: relative;
     text-align: center;
     font-size: 2.4rem;
 }

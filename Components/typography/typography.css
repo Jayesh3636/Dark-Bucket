@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-:root {
-    --primary-color: #2780f2;
-    --hover-primary-color: #1968ce;
-    --secondary-color: rgb(219, 219, 219);
-    --hover-secondary-color: rgb(165, 165, 165);
-    --hover-dark-gray: rgb(61, 61, 61);
-    --link-text-color: #5b5b5b;
-    --white: #fff;
-    --iframe:#2F1E2E;
-    --example-box-color:rgb(255, 245, 245);
-    --example-box-color-hover:rgb(27, 27, 27);
-}
 
 .material-icons {
     padding-right: .7rem;

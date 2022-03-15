@@ -15,9 +15,13 @@
     --background--light: rgb(255, 245, 245);
     --disabled: #c5c5c5;
     --fld--border: #d4d5d9;
-    --warning:#ff1158;
+    --warning: #ff1158;
     --valid: #a4ff11;
-
+    --rating-active: #ffa600;
+    --rating-unactive: #8383837e;
+    --iframe: #2f1e2e;
+    --example-box-color: rgb(255, 245, 245);
+    --example-box-color-hover: rgb(27, 27, 27);
 }
 
 * {
@@ -26,6 +30,8 @@
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
     font-size: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(236, 57, 102) #000;
 }
 
 h1 {
@@ -55,8 +61,6 @@ h6 {
 p {
     font-size: 1.6em;
 }
-
-
 
 .heading-title {
     font-size: 2.2rem;

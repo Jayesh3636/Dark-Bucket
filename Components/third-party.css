@@ -19,10 +19,6 @@
 @import url('./typography/typography.css');
 
 
-:root {
-    --primary-color: #F28627;
-    --background-color: #000;
-}
 
 html {
     overflow-x: hidden;

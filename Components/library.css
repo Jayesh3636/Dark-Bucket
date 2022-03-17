@@ -46,6 +46,11 @@ html {
 }
 
 /* body */
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: url(../images/background.svg) no-repeat;
+}
 
 a {
     text-decoration: none;
